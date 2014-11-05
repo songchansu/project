@@ -1,0 +1,4524 @@
+html {
+	width: 100%; height: 100%;
+}
+body {
+	width: 100%; height: 100%;
+}
+html {
+	-ms-overflow-y: scroll;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+body {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+h1 {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+h2 {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+h3 {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+h4 {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+input {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+button {
+	color: rgb(56, 61, 65); font-family: Dotum,µ¸¿ò,Helvetica,AppleSDGothicNeo,sans-serif; font-size: 12px;
+}
+body {
+	text-align: center; -ms-word-break: break-all; background-color: rgb(255, 255, 255);
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+iframe {
+	border: 0px currentColor; border-image: none;
+}
+li {
+	list-style: none;
+}
+input {
+	vertical-align: middle;
+}
+select {
+	vertical-align: middle;
+}
+button {
+	vertical-align: middle;
+}
+img {
+	vertical-align: top;
+}
+i {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+address {
+	font-style: normal;
+}
+label {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+a {
+	color: rgb(47, 55, 67); text-decoration: none;
+}
+a:hover {
+	color: rgb(51, 153, 0); text-decoration: underline;
+}
+button * {
+	position: relative;
+}
+button img {
+	left: -3px;
+}
+html:first-child select {
+	height: 20px; padding-right: 6px;
+}
+option {
+	padding-right: 6px;
+}
+hr {
+	display: none;
+}
+legend {
+	
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}
+.blind {
+	left: 0px; top: -1000em; overflow: hidden; display: block; position: absolute;
+}
+legend {
+	left: 0px; top: -1000em; overflow: hidden; display: block; position: absolute;
+}
+.ir {
+	height: 11px; overflow: hidden; font-size: 11px; display: block; white-space: nowrap; position: relative; z-index: -1;
+}
+.ellipsis {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.shadow2 {
+	background: url("http://img.naver.net/static/www/2014/bg_shadow_v3.png"); left: 0px; width: 100%; height: 2px; bottom: -3px; line-height: 0; overflow: hidden; font-size: 0px; position: absolute; _background: none;
+}
+.flash_fix {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: -1;
+}
+#dim {
+	background: url("http://img.naver.net/static/w9/blank.gif"); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 99;
+}
+.entry-title {
+	display: none;
+}
+iframe {
+	vertical-align: top;
+}
+.spr {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; color: transparent; line-height: 0; overflow: hidden; font-size: 0px; vertical-align: middle; display: inline-block;
+}
+.sprh {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20141006.png") no-repeat; color: transparent; line-height: 0; overflow: hidden; font-size: 0px; vertical-align: middle; display: inline-block;
+}
+.sprh_mov {
+	background-position: -312px 0px; left: 8px; width: 19px; height: 19px; bottom: 8px; position: absolute;
+}
+.sprh_genre {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_webtoon {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_webnobel {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_cartoon {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_show {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_exh {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_interview {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_book {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_relax {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_event {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_people {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_classic {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_webnoble {
+	left: 0px; width: 185px; height: 19px; bottom: 0px; position: absolute;
+}
+.sprh_genre {
+	background-position: 0px -197px;
+}
+.sprh_webtoon {
+	background-position: -190px -197px;
+}
+.sprh_webnobel {
+	background-position: 0px -221px;
+}
+.sprh_cartoon {
+	background-position: -190px -221px;
+}
+.sprh_show {
+	background-position: -380px -197px;
+}
+.sprh_exh {
+	background-position: -380px -221px;
+}
+.sprh_book {
+	background-position: 0px -245px;
+}
+.sprh_interview {
+	background-position: -190px -245px;
+}
+.sprh_relax {
+	background-position: 0px -296px;
+}
+.sprh_event {
+	background-position: -190px -296px;
+}
+.sprh_people {
+	background-position: -380px -296px;
+}
+.sprh_classic {
+	background-position: 0px -320px;
+}
+.sprh_webnoble {
+	background-position: -190px -320px;
+}
+.sprh_playlist {
+	background-position: 0px -269px; width: 60px; height: 18px;
+}
+.sprh_playlist2 {
+	background-position: -65px -269px; width: 75px; height: 22px;
+}
+.sprh_musician {
+	background-position: -145px -269px; width: 60px; height: 19px;
+}
+.sprh_musician2 {
+	background-position: -210px -269px; width: 73px; height: 22px;
+}
+.sprh_live {
+	background-position: -385px -269px; width: 77px; height: 19px;
+}
+.sprh_live2 {
+	background-position: -467px -268px; width: 90px; height: 22px;
+}
+.tcsp {
+	background: url("http://img.naver.net/static/www/2014/sp_theme201406.png") no-repeat; width: 185px; height: 156px; color: transparent; line-height: 0; overflow: hidden; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.tcsp_monday {
+	background-position: 0px 0px;
+}
+.tcsp_tuesday {
+	background-position: -190px 0px;
+}
+.tcsp_wednesday {
+	background-position: -380px 0px;
+}
+.tcsp_thursday {
+	background-position: -570px 0px;
+}
+.tcsp_friday {
+	background-position: 0px -161px;
+}
+.tcsp_saturday {
+	background-position: -190px -161px;
+}
+.tcsp_sunday {
+	background-position: -380px -161px;
+}
+.page {
+	line-height: 1em !important; font-size: 0.95em !important;
+}
+.page a {
+	padding: 3px; margin-left: -5px; vertical-align: top; display: inline-block; position: relative;
+}
+.page span {
+	padding: 3px; margin-left: -5px; vertical-align: top; display: inline-block; position: relative;
+}
+.page a:hover {
+	text-decoration: none;
+}
+.page a {
+	height: 14px; overflow: hidden; z-index: 1;
+}
+.page .pre {
+	padding-right: 0px;
+}
+.page .next {
+	padding-left: 0px;
+}
+.page .num {
+	padding: 0px; margin-left: 0px;
+}
+.page .num span {
+	padding: 0px; margin-left: 0px;
+}
+.page .num {
+	color: rgb(179, 183, 188); letter-spacing: -1px; font-family: "tahoma",sans-serif; font-size: 0.9em; margin-top: 4px; margin-right: 5px;
+}
+.page .num span {
+	font-weight: bold;
+}
+.page .num em {
+	color: rgb(132, 134, 137); font-weight: bold;
+}
+.cpg {
+	height: 21px; right: 14px; bottom: 10px; color: rgb(179, 183, 188); line-height: 21px; overflow: hidden; font-family: "tahoma",sans-serif; font-size: 10px; font-weight: bold; position: absolute;
+}
+.cpg strong {
+	color: rgb(132, 134, 157);
+}
+.cpg a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -188px -36px; width: 25px; height: 21px; line-height: 999px; overflow: hidden; margin-left: 3px; vertical-align: top; display: inline-block;
+}
+.cpg a.next {
+	background-position: -216px -36px; margin-left: -1px;
+}
+.flick_prev {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -191px 0px; left: 0px; top: 50%; width: 43px; height: 57px; line-height: 999px; overflow: hidden; margin-top: -28px; vertical-align: top; position: absolute;
+}
+.flick_next {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -239px 0px; top: 50%; width: 43px; height: 57px; right: 0px; line-height: 999px; overflow: hidden; margin-top: -28px; vertical-align: top; position: absolute;
+}
+#ad_top {
+	height: 105px;
+}
+#ad_branding_hide {
+	top: 296px; width: 355px; height: 311px; display: none; position: absolute; z-index: 11; background-color: rgb(255, 255, 255);
+}
+#ad_branding {
+	height: 150px;
+}
+.shop_ad img {
+	border-width: 1px; border-style: solid; border-color: rgb(231, 231, 231) rgb(214, 214, 214) rgb(214, 214, 214); border-image: none; display: block;
+}
+#marketing_v2 {
+	background: rgb(255, 255, 255); width: 280px; clear: both;
+}
+#marketing_v2 li {
+	margin: 5px 0px; vertical-align: top;
+}
+#promotion1 {
+	height: 36px; clear: both; position: relative;
+}
+#promotion1 .ptxts {
+	width: 635px; height: 31px; position: relative;
+}
+#promotion1 .ptxts dl {
+	overflow: hidden; -ms-zoom: 1;
+}
+#promotion1 .ptxts dt {
+	float: left;
+}
+#promotion1 .ptxts dd {
+	padding: 7px 0px 0px; height: 24px; overflow: hidden; -ms-zoom: 1;
+}
+#promotion1 .ptxts ul {
+	height: 18px; text-align: left; line-height: 18px; overflow: hidden; margin-right: 15px; white-space: nowrap; position: relative;
+}
+#promotion1 .ptxts ul::after {
+	clear: both; display: block; content: "";
+}
+#promotion1 .ptxts li {
+	padding-left: 7px; margin-left: 13px; display: inline-block; position: relative;
+}
+#promotion1 .ptxts .st a {
+	font-weight: bold;
+}
+#promotion1 .ptxts li:first-child {
+	padding: 0px; margin-right: 3px; margin-left: 0px;
+}
+#promotion1 .ptxts li a {
+	color: rgb(51, 51, 51); overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#promotion1 .ptxts .dot {
+	left: 0px; top: 8px; width: 2px; height: 2px; margin-top: -1px; position: absolute; background-color: rgb(51, 51, 51);
+}
+#promotion1 .bann {
+	top: -5px; right: 0px; position: absolute;
+}
+#promotion5 {
+	width: 595px; height: 171px; clear: both; margin-bottom: -171px; position: relative; z-index: 4;
+}
+#promotion5 .close a {
+	top: 4px; width: 23px; height: 21px; right: 4px;
+}
+#promotion2 {
+	top: 0px; height: 159px; overflow: hidden; clear: both; margin-bottom: -159px; position: relative; z-index: 5;
+}
+#promotion2 .close a {
+	top: 9px; width: 18px; height: 18px; right: 9px;
+}
+#promotion6 {
+	left: 0px; top: 0px; width: 298px; height: 29px; position: absolute; z-index: 3;
+}
+#promotion6 .close a {
+	left: 275px; top: 5px; width: 18px; height: 18px;
+}
+.promotion6_lnk {
+	top: 14px; right: 43px; position: absolute;
+}
+.promotion6_lnk a {
+	text-decoration: underline;
+}
+#promotion3 {
+	height: 150px; margin-top: -150px; position: relative;
+}
+#promotion3 .close a {
+	top: 5px; width: 18px; height: 18px; right: 9px;
+}
+#promotion2 .close a {
+	background: url("http://img.naver.net/static/w9/blank.gif"); text-indent: -1000em; overflow: hidden; display: block; position: absolute;
+}
+#promotion3 .close a {
+	background: url("http://img.naver.net/static/w9/blank.gif"); text-indent: -1000em; overflow: hidden; display: block; position: absolute;
+}
+#promotion5 .close a {
+	background: url("http://img.naver.net/static/w9/blank.gif"); text-indent: -1000em; overflow: hidden; display: block; position: absolute;
+}
+#promotion6 .close a {
+	background: url("http://img.naver.net/static/w9/blank.gif"); text-indent: -1000em; overflow: hidden; display: block; position: absolute;
+}
+#promotion9 {
+	left: 285px; top: -141px; width: 63px; height: 63px; clear: both; margin-bottom: -63px; position: relative; z-index: 5;
+}
+#promotion10 {
+	left: 0px; top: 0px; height: 159px; margin-bottom: -159px; display: none; position: relative; z-index: 5;
+}
+#promotion8 {
+	left: 0px; top: 0px; width: 100%; height: 41px; text-align: center; position: absolute; z-index: 5;
+}
+#promotion8 button {
+	background: none; border: 0px currentColor; border-image: none; width: 13px; height: 13px;
+}
+#promotion11 {
+	top: 0px; right: 0px; position: absolute;
+}
+#promotion11 a {
+	display: block;
+}
+#wrap {
+	min-width: 940px;
+}
+#header {
+	width: 100%; z-index: 100;
+}
+.gnb {
+	width: 100%; height: 30px; border-bottom-color: rgb(223, 223, 223); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 105; background-color: rgb(251, 251, 251);
+}
+.lnb {
+	margin: 0px auto; width: 940px; text-align: left;
+}
+#container {
+	margin: 0px auto; width: 940px; text-align: left; -ms-zoom: 1;
+}
+#container::after {
+	clear: both; display: block; content: "";
+}
+#column_left {
+	width: 640px; float: left;
+}
+#column_right {
+	width: 300px; float: right;
+}
+#column_bottom {
+	margin: 0px 0px 5px; border: 1px solid rgb(214, 214, 214); border-image: none; width: 938px; text-align: left; clear: both; -ms-zoom: 1;
+}
+#column_bottom::after {
+	clear: both; display: block; content: "";
+}
+#footer {
+	margin: 0px auto; width: 940px; text-align: left;
+}
+body.nanum {
+	font-size: 12px;
+}
+body.nanum {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+body.nanum h1 {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+body.nanum h2 {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+body.nanum h3 {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+body.nanum h4 {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+.nanum .ranklist a {
+	line-height: 16px;
+}
+#u_skip {
+	position: relative; z-index: 2147483647;
+}
+#u_skip a {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -384px -32px; border: 1px solid rgb(78, 197, 61); border-image: none; left: 0px; top: -30px; width: 138px; text-align: center; position: absolute;
+}
+#u_skip a:active {
+	top: 0px; text-decoration: none; cursor: pointer; -ms-zoom: 1;
+}
+#u_skip a:focus {
+	top: 0px; text-decoration: none; cursor: pointer; -ms-zoom: 1;
+}
+#u_skip span {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 100% -441px; padding: 2px 6px 0px 0px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: -1px; font-size: 0.92em; display: inline-block;
+}
+.nav_hm {
+	left: 50%; top: 0px; width: 144px; padding-left: 1px; margin-left: -72px; position: absolute;
+}
+.nav_hm li {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; float: left;
+}
+.nav_hm li.m {
+	background-position: 0px 0px;
+}
+.nav_hm li.m2 {
+	background-position: -48px 0px;
+}
+.nav_hm li.m3 {
+	background-position: -95px 0px;
+}
+.nav_hm a {
+	width: 48px; height: 31px; display: block;
+}
+.nav_hm a:hover {
+	text-decoration: none;
+}
+.nav_hm li.m2 a {
+	width: 47px;
+}
+.nav_hm .ns {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -392px -430px; left: 129px; top: 1px; height: 17px; color: rgb(255, 255, 255); line-height: 16px !important; text-indent: 0px; letter-spacing: 0px; display: inline-block; position: absolute; cursor: pointer;
+}
+.nav_hm .ns em {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 100% -430px; padding: 0px 6px 0px 1px; top: auto; width: auto; right: -7px; text-indent: -2px; font-family: "tahoma",sans-serif; font-size: 10px; vertical-align: top; display: inline-block; white-space: nowrap; position: relative;
+}
+.nav_hm2_ly {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; padding: 8px 2px 0px 0px; left: 0px; top: -2000px; height: 22px; text-align: center; color: rgb(132, 134, 137); line-height: 18px; letter-spacing: -1px; font-size: 0.92em; white-space: nowrap; position: absolute; z-index: 105;
+}
+.nav_hm2_ly span {
+	color: rgb(50, 153, 0);
+}
+.nav_hm a:hover .nav_hm2_ly {
+	top: 25px; cursor: pointer; -ms-zoom: 1;
+}
+.nav_hm a:active .nav_hm2_ly {
+	top: 25px; cursor: pointer; -ms-zoom: 1;
+}
+.nav_hm a:focus .nav_hm2_ly {
+	top: 25px; cursor: pointer; -ms-zoom: 1;
+}
+.nav_hm2_ly1 {
+	background-position: -150px 0px; left: 26px; width: 59px; margin-left: -30px;
+}
+.nav_hm2_ly2 {
+	background-position: -220px 0px; left: 73px; width: 149px; margin-left: -75px;
+}
+.nav_hm2_ly3 {
+	background-position: -70px -160px; left: 120px; width: 139px; margin-left: -70px;
+}
+.naver_set {
+	padding: 7px 0px 0px 5px; color: rgb(223, 223, 225); letter-spacing: -1px; font-size: 0.92em;
+}
+.naver_set li {
+	text-align: left; float: left;
+}
+.naver_set a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% 2px; color: rgb(119, 119, 119); line-height: 16px; padding-right: 6px; margin-left: 9px;
+}
+.naverapp {
+	position: relative;
+}
+.toolbar {
+	position: relative;
+}
+.naverapp a.btn {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -420px -541px; padding: 0px 0px 0px 22px; border: 0px currentColor; border-image: none; height: 16px; color: rgb(119, 119, 119); margin-left: 10px; vertical-align: middle; display: inline-block;
+}
+.naverapp .ly_hnb {
+	left: 10px;
+}
+.naverapp .txtsm {
+	color: rgb(54, 54, 54); margin-bottom: 6px; display: block;
+}
+.naverapp input {
+	padding: 0px 0px 0px 6px; border: 1px solid rgb(181, 181, 181); border-image: none; width: 121px; height: 22px; color: rgb(51, 51, 51); line-height: 22px; font-size: 1.09em; margin-left: 1px;
+}
+.naverapp input.empty {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -270px -379px; color: rgb(198, 198, 198); letter-spacing: -1px; font-size: 1em;
+}
+.naverapp .btnsm {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -230px -160px; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 42px; height: 24px; overflow: hidden;
+}
+.naverapp .qr {
+	top: 41px; right: 22px; position: absolute;
+}
+.naverapp li .new {
+	background-position: -220px -160px; width: 8px; height: 8px;
+}
+.ly_hnb {
+	background: rgb(255, 255, 255); padding: 20px 0px 0px 19px; border: 2px solid rgb(36, 184, 38); border-image: none; left: 10px; top: 18px; width: 337px; height: 145px; letter-spacing: -1px; overflow: hidden; position: absolute;
+}
+.ly_hnb a {
+	background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; position: relative;
+}
+.ly_hnb .tit {
+	color: rgb(54, 54, 54); padding-bottom: 13px; font-family: "±¼¸²",Gulim,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 1.09em; font-weight: bold;
+}
+.nanum .ly_hnb .tit {
+	font-family: "³ª´®°íµñ",NanumGothic,"µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+.ly_hnb p a {
+	color: rgb(1, 168, 5); line-height: 14px; text-decoration: underline;
+}
+.ly_hnb .desc {
+	color: rgb(153, 153, 153); line-height: 14px; padding-top: 7px;
+}
+.ly_hnb ul {
+	left: 14px; top: 136px; overflow: hidden; position: absolute;
+}
+.ly_hnb li {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -90px; padding-left: 6px; margin-left: 6px; float: left; _display: inline;
+}
+.ly_hnb li.f {
+	background: none; margin-left: 0px;
+}
+.ly_hnb li a {
+	color: rgb(102, 102, 102); line-height: 13px;
+}
+.ly_hnb .more a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -43px; color: rgb(153, 153, 153); line-height: 12px; padding-right: 7px; font-size: 1.09em; display: inline-block; _line-height: 13px;
+}
+.ly_hnb .cls {
+	top: 6px; right: 6px; position: absolute;
+}
+.ly_hnb .cls a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -30px -180px; padding: 0px; width: 11px; height: 11px; display: block;
+}
+.ly_hnb li span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -220px -160px; margin: 1px 0px 0px 1px; line-height: 0; text-indent: -1000em; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.ly_hnb .txt {
+	padding: 13px 0px 0px; color: rgb(54, 54, 54); line-height: 16px; font-size: 1.09em; margin-top: 15px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.ly_hnb .btn_wrap {
+	text-align: center; margin-top: 13px;
+}
+.ly_hnb .btn_wrap button {
+	margin: 0px 1px; line-height: 1.3em; padding-top: 2px;
+}
+.ly_hnb .btn_set {
+	width: 70px; font-weight: bold;
+}
+.ly_hnb .btn_cncl {
+	width: 43px;
+}
+.toolbar .ly_hnb {
+	padding: 19px; left: 10px; width: 338px; height: 198px;
+}
+.toolbar .img {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 0px -40px; margin: 8px 0px 1px 1px; width: 336px; height: 29px; line-height: 0; text-indent: -1000em; font-size: 0px; display: block;
+}
+.toolbar .app {
+	position: static;
+}
+.toolbar li .new {
+	background-position: -270px -140px; width: 9px; height: 9px;
+}
+.toolbar li .update {
+	background-position: -270px -150px; width: 9px; height: 9px;
+}
+.toolbar .desc .ic {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -340px -60px; width: 14px; height: 14px; margin-right: 5px; vertical-align: top; display: inline-block;
+}
+.toolbar .more {
+	top: 85px; height: 14px; right: 20px; line-height: 14px; position: absolute;
+}
+.set_font {
+	margin: -2px 0px 0px 10px; border: 1px solid rgb(198, 198, 198); border-image: none; width: 109px; height: 18px; line-height: 16px; float: left; white-space: nowrap; position: relative; background-color: rgb(253, 253, 253);
+}
+.set_font a {
+	background: none; margin: 0px; padding: 0px;
+}
+.set_font li {
+	float: none;
+}
+.set_font .setf {
+	margin: -1px 0px 0px -1px; width: 90px; height: 20px; position: static;
+}
+.set_font .setf li {
+	background-color: rgb(253, 253, 253);
+}
+.set_font .setf li a {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 7px 4px; border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(198, 198, 198) currentColor rgb(198, 198, 198) rgb(198, 198, 198); padding: 2px 0px 0px 21px; border-image: none; width: 67px; height: 16px; color: rgb(119, 119, 119); text-decoration: none !important; display: block; position: relative;
+}
+.set_font .setf .first {
+	display: block;
+}
+.set_font .setf .first {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 62px -22px;
+}
+.set_font .setf .second {
+	margin-top: -1px; display: none; background-color: rgb(242, 242, 242);
+}
+.set_font .setf .second a {
+	border: 1px solid rgb(184, 185, 188); border-image: none; width: 67px; height: 16px; line-height: 14px; font-family: "³ª´®°íµñ",NanumGothic,sans-serif;
+}
+.nanum .set_font .setf .first a {
+	line-height: 14px;
+}
+.nanum .set_font .setf .second a {
+	line-height: 16px; font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;
+}
+.set_font .setf .first a:hover {
+	border: 1px solid rgb(153, 153, 153); border-image: none; width: 67px; z-index: 10;
+}
+.set_font .setf .second a:hover {
+	background-position: 7px -206px; border: 1px solid rgb(92, 94, 104); border-image: none; color: rgb(255, 255, 255); z-index: 10; background-color: rgb(122, 125, 137);
+}
+.set_font .setf_open {
+	height: 40px;
+}
+.set_font .setf_open .first {
+	background-position: 62px -52px;
+}
+.set_font .setf_open .second {
+	display: block;
+}
+.set_font .setf_help {
+	top: 0px; width: 21px; height: 18px; right: 0px; position: absolute; z-index: 5;
+}
+.set_font .setf_help a.setf_help_toggle {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -90px; width: 20px; height: 18px; text-indent: 22px; overflow: hidden; border-left-color: rgb(232, 232, 234); border-left-width: 1px; border-left-style: solid; display: block; position: relative;
+}
+.set_font .setf_help .ly_setf_help {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(191, 191, 191) rgb(191, 191, 191); padding: 8px 0px 3px; border-image: none; top: 19px; width: 109px; right: -1px; display: none; position: absolute; background-color: rgb(250, 250, 250);
+}
+.set_font .setf_help .ly_setf_help li {
+	padding: 0px 0px 0px 6px; height: 19px;
+}
+.set_font .setf_help .ly_setf_help a {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 100% -146px; color: rgb(119, 119, 119); padding-right: 5px; display: inline-block;
+}
+.set_font .setf_help .ly_setf_help a.ly_setf_close {
+	background-position: -7px -176px; padding: 0px; width: 17px; height: 17px; right: 2px; bottom: 0px; text-indent: 17px; overflow: hidden; white-space: nowrap; position: absolute;
+}
+.set_font .setf_help_open .ly_setf_help {
+	display: block;
+}
+.set_font .setf_help_open a.setf_help_toggle {
+	background-position: 0px -120px; border: 1px solid rgb(153, 153, 153); border-image: none; top: -1px;
+}
+.set_font .setf_help a.setf_help_toggle:hover {
+	background-position: 0px -120px; border: 1px solid rgb(153, 153, 153); border-image: none; top: -1px;
+}
+.fms {
+	top: 6px; right: 10px; color: rgb(223, 223, 225); line-height: 19px; letter-spacing: -1px; font-size: 11px; position: absolute;
+}
+.fms a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; margin: 0px 5px 0px 6px; height: 17px; color: rgb(119, 119, 119); overflow: hidden; float: left; _display: inline;
+}
+.fms a.hb {
+	background-position: -340px -40px; width: 30px;
+}
+.fms a.me2 {
+	background-position: 0px -70px; width: 42px;
+}
+.fms a.ju {
+	background-position: -50px -70px; width: 52px;
+}
+.fms a.han {
+	background-position: -110px -70px; width: 61px;
+}
+.fms span {
+	margin-top: 1px; float: left;
+}
+.nanum_popup {
+	top: 112px; width: 429px; text-align: center; right: 15px; color: rgb(51, 51, 51); line-height: 16px; white-space: nowrap; position: absolute; z-index: 11000; background-color: rgb(255, 255, 255);
+}
+.nanum_popup button {
+	background: none; border: 0px currentColor; border-image: none; cursor: pointer;
+}
+.nanum_popup .ques {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -92px -752px; margin: 0px auto; width: 25px; height: 24px; display: block;
+}
+.nanum_popup h4 {
+	margin: 15px auto; font-size: 14px;
+}
+.nanum_popup p {
+	line-height: 19px; padding-bottom: 9px;
+}
+.nanum_popup p span {
+	color: rgb(51, 153, 0); font-weight: bold;
+}
+.nanum_popup .cnt {
+	padding: 20px 20px 11px;
+}
+.nanum_popup .txt_nanum {
+	margin: 0px; padding: 10px 0px 9px; color: rgb(76, 76, 76); border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.nanum_popup .txt_notice {
+	background: rgb(250, 250, 250); margin: 0px; padding: 8px 0px 11px; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.nanum_popup .txt_notice p {
+	margin: 0px 0px 3px; padding: 0px; color: rgb(141, 141, 141);
+}
+.nanum_popup .txt_notice a {
+	text-decoration: underline;
+}
+.nanum_popup .nanum_inst {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -226px -70px; width: 45px; height: 26px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.nanum_popup .nanum_cancel {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -226px -70px; width: 45px; height: 26px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.nanum_popup .nanum_inst {
+	background-position: -176px -70px; margin-right: 1px;
+}
+.nanum_popup .btn_cl {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -123px -753px; top: 7px; width: 21px; height: 21px; right: 7px; margin-left: 3px; position: absolute;
+}
+.nanum_popup .btn_cl button {
+	width: 21px; height: 21px;
+}
+.nanum_popup2 {
+	width: 997px; overflow: hidden;
+}
+.nanum_popup2 .nanum_top {
+	margin-bottom: 10px;
+}
+.nanum_popup .nanum_popup_in {
+	margin: 0px; border: 2px solid rgb(136, 136, 136); border-image: none; background-color: rgb(255, 255, 255);
+}
+.lnb {
+	height: 163px; overflow: visible; margin-bottom: 3px; position: relative; z-index: 100;
+}
+.lnb h1 {
+	top: 22px; right: 611px; position: absolute;
+}
+.lnb h1.special {
+	top: 0px;
+}
+.lnb h1 a {
+	color: rgb(62, 175, 14); display: block;
+}
+.lnb h1 object a {
+	padding: 10px 10px 0px 0px; line-height: 1.4em; font-size: 1.67em;
+}
+#search {
+	left: 329px; top: 41px; width: 611px; position: absolute; z-index: 15;
+}
+#search form {
+	margin-bottom: 9px;
+}
+#search .green_window {
+	border: 7px solid rgb(45, 180, 0); border-image: none; width: 358px; height: 26px; margin-right: 5px; display: inline-block; background-color: rgb(255, 255, 255); _width: 372px; _height: 40px;
+}
+#search .input_text {
+	margin: 3px 0px 0px 6px; border: 0px currentColor; border-image: none; width: 323px; height: 17px; color: rgb(0, 0, 0); line-height: 18px; font-size: 1.17em; font-weight: bold;
+}
+#search .sch_smit {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat 0px 0px; border: 0px currentColor; border-image: none; width: 52px; height: 40px; vertical-align: top;
+}
+#search .sch_smit span {
+	border: 1px solid rgb(61, 174, 13); border-image: none; top: 0px; width: auto; height: 36px; color: rgb(255, 255, 255); line-height: 38px; font-weight: bold; vertical-align: top; display: block; background-color: rgb(72, 189, 21);
+}
+#search .over {
+	background-position: -60px 0px;
+}
+#search .down {
+	background-position: -120px 0px;
+}
+.autocomplete {
+	left: 6px; top: 34px; width: 360px; position: absolute; z-index: 10;
+}
+.autocomplete .atcmp_btn {
+	top: -20px; width: 13px; height: 11px; right: 8px; position: absolute !important;
+}
+* + html .autocomplete .atcmp_btn {
+	right: 10px;
+}
+.autocomplete .atcmp_btn img {
+	vertical-align: top;
+}
+.autocomplete .atcmp_words {
+	width: 360px;
+}
+.autocomplete .atcmp_cont {
+	position: relative; z-index: 2;
+}
+.autocomplete .atcmp_blank {
+	left: 0px; top: 0px; position: absolute;
+}
+.btn_arw {
+	left: 334px; top: -27px; position: absolute;
+}
+.top.btn_arw a {
+	padding: 8px 5px; display: block;
+}
+.reatcmp {
+	left: 6px; top: 34px; position: absolute; z-index: 100;
+}
+.search_link {
+	width: 375px; position: relative;
+}
+.search_link .sl_ico {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -130px -120px; left: 2px; top: 0px; width: 14px; height: 14px; position: absolute;
+}
+.search_link .page {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -347px -288px; top: -4px; width: 37px; height: 20px; right: 0px; position: absolute;
+}
+.search_link .page .slkpage_num {
+	display: none;
+}
+.search_link .page a {
+	margin: 0px; padding: 0px; width: 19px; height: 20px; position: absolute; z-index: 0;
+}
+.search_link .page .pre {
+	left: 0px;
+}
+.search_link .page .next {
+	left: 18px;
+}
+.search_link .page img {
+	width: 14px; height: 14px; padding-top: 3px; display: block;
+}
+.qu_txt {
+	width: 340px; line-height: 14px; overflow: hidden; margin-left: 19px;
+}
+:root .qu_txt {
+	line-height: 15px;
+}
+.qu_txt span {
+	display: inline-block;
+}
+.qu_txt span.e {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -89px; padding-left: 8px; margin-left: 3px; _margin-left: 0;
+}
+.qu_txt a {
+	letter-spacing: -1px; padding-right: 1px; position: relative;
+}
+.qu_txt a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+.s_menu {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat 0px 100% rgb(68, 179, 22); left: 0px; width: 940px; height: 27px; bottom: 0px; padding-top: 11px; position: absolute; _height: 38px; _bottom: -1px;
+}
+.s_menu dd {
+	float: left; _display: inline;
+}
+.s_menu .f {
+	background: none;
+}
+.nmenu {
+	padding-left: 9px; float: left;
+}
+.nmenu dd {
+	padding-left: 5px;
+}
+.fmenu dd {
+	padding-left: 5px;
+}
+.nmenu dd {
+	position: relative;
+}
+.nmenu .ic_up {
+	left: 50%; top: -15px; margin-left: -7px; position: absolute;
+}
+.fmenu {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 6px -123px; padding-left: 10px; float: left;
+}
+.hmenu {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 6px -123px; padding-left: 10px; float: left;
+}
+.nmenu a {
+	height: 16px; text-align: center; line-height: 16px; letter-spacing: -1px; overflow: hidden; font-size: 0.92em; display: block; position: relative; cursor: pointer;
+}
+.fmenu a {
+	height: 16px; text-align: center; line-height: 16px; letter-spacing: -1px; overflow: hidden; font-size: 0.92em; display: block; position: relative; cursor: pointer;
+}
+.hmenu a {
+	height: 16px; text-align: center; line-height: 16px; letter-spacing: -1px; overflow: hidden; font-size: 0.92em; display: block; position: relative; cursor: pointer;
+}
+.nmenu span {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: absolute;
+}
+.fmenu span {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: absolute;
+}
+.hmenu span {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: block; position: absolute;
+}
+.fmenu .slot {
+	background: rgb(54, 154, 15); margin: -2px -2px 0px 0px; padding: 0px; border: 1px solid rgb(44, 138, 12); border-image: none; width: 29px; height: 18px; overflow: hidden; position: relative;
+}
+.fmenu .last .slot {
+	margin-right: 0px;
+}
+.hmenu {
+	background-position: 6px -143px; height: 21px; padding-top: 3px; margin-top: -3px;
+}
+.hmenu .hmenu_w {
+	height: 16px; overflow: hidden; padding-left: 5px; float: left; position: relative;
+}
+.hmenu dl {
+	float: left;
+}
+.hmenu dd {
+	clear: both;
+}
+.hmenu dd img {
+	margin: 0px 3px 0px 0px; float: left; _display: inline;
+}
+.hmenu a {
+	margin-right: 14px; float: left; _display: inline;
+}
+.hmenu .svcm {
+	width: 48px; height: 16px; display: block;
+}
+.hmenu .svcm span {
+	background-position: -260px -40px;
+}
+.hmenu .svcm span.over {
+	background-position: -310px -40px;
+}
+.hmenu .close span {
+	background-position: -367px -40px;
+}
+.hmenu .close span.over {
+	background-position: -417px -40px;
+}
+.nmenu a:focus {
+	margin: -1px; border: 1px dotted rgb(190, 80, 237); border-image: none;
+}
+.fmenu a:focus {
+	margin: -1px; border: 1px dotted rgb(190, 80, 237); border-image: none;
+}
+.hmenu a:focus {
+	margin: -1px; border: 1px dotted rgb(190, 80, 237); border-image: none;
+}
+.hmenu a:focus {
+	margin: -1px 13px -1px -1px;
+}
+.nmenu span {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat;
+}
+.fmenu span {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat;
+}
+.hmenu span {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat;
+}
+.mn_cafe span {
+	background-position: 0px -50px;
+}
+.mn_kin span {
+	background-position: -30px -50px;
+}
+.mn_mail span {
+	background-position: -70px -50px;
+}
+.mn_shopping span {
+	background-position: -100px -50px;
+}
+.mn_blog span {
+	background-position: -130px -50px;
+}
+.mn_bookmark span {
+	background-position: -140px -250px;
+}
+.mn_land span {
+	background-position: 0px -70px;
+}
+.mn_music span {
+	background-position: -40px -70px;
+}
+.mn_mobile span {
+	background-position: -70px -70px;
+}
+.mn_comic span {
+	background-position: -300px -90px;
+}
+.mn_news span {
+	background-position: -140px -70px;
+}
+.mn_weather span {
+	background-position: 0px -90px;
+}
+.mn_finance span {
+	background-position: -30px -90px;
+}
+.mn_traffic span {
+	background-position: -60px -90px;
+}
+.mn_acct span {
+	background-position: -90px -90px;
+}
+.mn_line span {
+	background-position: -120px -90px;
+}
+.mn_mileage span {
+	background-position: 0px -110px;
+}
+.mn_terms span {
+	background-position: -50px -110px;
+}
+.mn_tvguide span {
+	background-position: -100px -110px;
+}
+.mn_ya9 span {
+	background-position: 0px -130px;
+}
+.mn_baseball span {
+	background-position: -50px -130px;
+}
+.mn_qr span {
+	background-position: -50px -150px;
+}
+.mn_wingspoon span {
+	background-position: -100px -150px;
+}
+.mn_arts span {
+	background-position: -180px 0px;
+}
+.mn_health span {
+	background-position: -180px -40px;
+}
+.mn_healthnaver span {
+	background-position: -180px -40px;
+}
+.mn_opencalendar span {
+	background-position: -150px -90px;
+}
+.mn_contact span {
+	background-position: -150px -110px;
+}
+.mn_album span {
+	background-position: -180px -150px;
+}
+.mn_ndrive span {
+	background-position: -150px -170px;
+}
+.mn_checkout span {
+	background-position: 0px -190px;
+}
+.mn_wingbus span {
+	background-position: -415px -230px;
+}
+.mn_calendar span {
+	background-position: -100px -190px;
+}
+.mn_navercast span {
+	background-position: -140px -190px;
+}
+.mn_dna span {
+	background-position: 0px -210px;
+}
+.mn_japan span {
+	background-position: -80px -210px;
+}
+.mn_academic span {
+	background-position: -160px -210px;
+}
+.mn_moneybook span {
+	background-position: -230px 0px;
+}
+.mn_opencast span {
+	background-position: -210px -170px;
+}
+.mn_photo span {
+	background-position: -230px -20px;
+}
+.mn_kitchen span {
+	background-position: -210px -90px;
+}
+.mn_book span {
+	background-position: -250px -70px;
+}
+.mn_local span {
+	background-position: -190px -110px;
+}
+.mn_kref span {
+	background-position: -210px -210px;
+}
+.mn_map span {
+	background-position: -230px -130px;
+}
+.mn_stock span {
+	background-position: -230px -150px;
+}
+.mn_auto span {
+	background-position: -200px -230px;
+}
+.mn_people span {
+	background-position: -70px -230px;
+}
+.mn_movie span {
+	background-position: 0px -250px;
+}
+.mn_sports span {
+	background-position: -210px -250px;
+}
+.mn_dic span {
+	background-position: -30px -250px;
+}
+.mn_video span {
+	background-position: -60px -250px;
+}
+.mn_boom span {
+	background-position: -240px -230px;
+}
+.mn_camera span {
+	background-position: -320px 0px;
+}
+.mn_shopn span {
+	background-position: -290px -110px;
+}
+.mn_photom span {
+	background-position: -260px -130px;
+}
+.mn_ngame span {
+	background-position: -240px -90px;
+}
+.mn_vndic span {
+	background-position: -220px -110px;
+}
+.mn_tvcast span {
+	background-position: -270px -70px;
+}
+.mn_webtoon span {
+	background-position: -300px -90px;
+}
+.mn_terms2 span {
+	background-position: -260px -190px;
+}
+.mn_nstore span {
+	background-position: -260px -210px;
+}
+.mn_band span {
+	background-position: -310px -250px;
+}
+.mn_magazine span {
+	background-position: -457px -230px;
+}
+.mn_bill span {
+	background-position: -310px -190px;
+}
+.mn_myshelf span {
+	background-position: -260px -230px;
+}
+.mn_office span {
+	background-position: -339px -250px;
+}
+.mn_coupon span {
+	background-position: -379px -250px;
+}
+.mn_memo span {
+	background-position: -331px -170px;
+}
+.mn_trend span {
+	background-position: -339px -190px;
+}
+.mn_radio span {
+	background-position: -412px -190px;
+}
+.mn_webnoble span {
+	background-position: -374px -230px;
+}
+.mn_mndic span {
+	background-position: -409px -250px;
+}
+.mn_iddic span {
+	background-position: -471px -250px;
+}
+.mn_newspaper span {
+	background-position: -498px -230px;
+}
+.mn_dodol span {
+	background-position: -476px -190px;
+}
+.mn_dodolpop span {
+	background-position: -532px -250px;
+}
+.mn_wannab span {
+	background-position: -527px -190px;
+}
+.mn_software span {
+	background-position: -570px -190px;
+}
+.mn_dodolcover span {
+	background-position: -567px -210px;
+}
+.mn_midnight span {
+	background-position: -563px -230px;
+}
+.mn_endic span {
+	background-position: -632px -190px;
+}
+.mn_hanja span {
+	background-position: -618px -210px;
+}
+.mn_cndic span {
+	background-position: -602px -230px;
+}
+.mn_spdic span {
+	background-position: -573px -250px;
+}
+.mn_krdic span {
+	background-position: -668px -210px;
+}
+.mn_jpdic span {
+	background-position: -664px -230px;
+}
+.mn_frdic span {
+	background-position: -646px -250px;
+}
+.mn_dedic span {
+	background-position: -710px -190px;
+}
+.mn_trdic span {
+	background-position: -718px -210px;
+}
+.mn_rudic span {
+	background-position: -725px -230px;
+}
+.mn_phrasebook span {
+	background-position: -719px -250px;
+}
+.mn_shootingprice span {
+	background-position: -772px -190px;
+}
+.mn_interview span {
+	background-position: -779px -210px;
+}
+.mn_nvnews span {
+	background-position: -171px -70px;
+}
+.mn_post span {
+	background-position: -274px -170px;
+}
+.mn_grafolio span {
+	background-position: -102px -130px;
+}
+.mn_boom {
+	width: 14px;
+}
+.mn_book {
+	width: 14px;
+}
+.mn_shopn {
+	width: 21px;
+}
+.mn_memo {
+	width: 23px;
+}
+.mn_healthnaver {
+	width: 24px;
+}
+.mn_ngame {
+	width: 24px;
+}
+.mn_band {
+	width: 24px;
+}
+.mn_bill {
+	width: 24px;
+}
+.mn_cafe {
+	width: 25px;
+}
+.mn_mail {
+	width: 25px;
+}
+.mn_shopping {
+	width: 25px;
+}
+.mn_weather {
+	width: 25px;
+}
+.mn_music {
+	width: 25px;
+}
+.mn_dic {
+	width: 25px;
+}
+.mn_stock {
+	width: 25px;
+}
+.mn_local {
+	width: 25px;
+}
+.mn_kitchen {
+	width: 25px;
+}
+.mn_line {
+	width: 25px;
+}
+.mn_webtoon {
+	width: 25px;
+}
+.mn_comic {
+	width: 25px;
+}
+.mn_coupon {
+	width: 25px;
+}
+.mn_acct {
+	width: 26px;
+}
+.mn_traffic {
+	width: 26px;
+}
+.mn_finance {
+	width: 26px;
+}
+.mn_news {
+	width: 26px;
+}
+.mn_movie {
+	width: 26px;
+}
+.mn_map {
+	width: 26px;
+}
+.mn_photo {
+	width: 26px;
+}
+.mn_midnight {
+	width: 34px;
+}
+.mn_myshelf {
+	width: 35px;
+}
+.mn_office {
+	width: 35px;
+}
+.mn_interview {
+	width: 35px;
+}
+.mn_post {
+	width: 35px;
+}
+.mn_webnoble {
+	width: 36px;
+}
+.mn_kin {
+	width: 36px;
+}
+.mn_blog {
+	width: 36px;
+}
+.mn_magazine {
+	width: 36px;
+}
+.mn_dodolpop {
+	width: 36px;
+}
+.mn_mobile {
+	width: 37px;
+}
+.mn_bookmark {
+	width: 37px;
+}
+.mn_moneybook {
+	width: 37px;
+}
+.mn_land {
+	width: 37px;
+}
+.mn_video {
+	width: 37px;
+}
+.mn_sports {
+	width: 37px;
+}
+.mn_auto {
+	width: 37px;
+}
+.mn_calendar {
+	width: 37px;
+}
+.mn_contact {
+	width: 37px;
+}
+.mn_wingspoon {
+	width: 37px;
+}
+.mn_wingbus {
+	width: 37px;
+}
+.mn_wannab {
+	width: 38px;
+}
+.mn_qr {
+	width: 42px;
+}
+.mn_ya9 {
+	width: 42px;
+}
+.mn_nstore {
+	width: 43px;
+}
+.mn_camera {
+	width: 45px;
+}
+.mn_hanja {
+	width: 45px;
+}
+.mn_krdic {
+	width: 45px;
+}
+.mn_photom {
+	width: 46px;
+}
+.mn_dodol {
+	width: 46px;
+}
+.mn_dodolcover {
+	width: 46px;
+}
+.mn_terms2 {
+	width: 47px;
+}
+.mn_academic {
+	width: 48px;
+}
+.mn_album {
+	width: 48px;
+}
+.mn_people {
+	width: 48px;
+}
+.mn_kref {
+	width: 48px;
+}
+.mn_checkout {
+	width: 48px;
+}
+.mn_health {
+	width: 48px;
+}
+.mn_arts {
+	width: 48px;
+}
+.mn_baseball {
+	width: 48px;
+}
+.mn_terms {
+	width: 48px;
+}
+.mn_mileage {
+	width: 48px;
+}
+.mn_japan {
+	width: 48px;
+}
+.mn_tvguide {
+	width: 49px;
+}
+.mn_tvcast {
+	width: 50px;
+}
+.mn_iddic {
+	width: 56px;
+}
+.mn_jpdic {
+	width: 56px;
+}
+.mn_trdic {
+	width: 56px;
+}
+.mn_ndrive {
+	width: 57px;
+}
+.mn_mndic {
+	width: 57px;
+}
+.mn_software {
+	width: 57px;
+}
+.mn_cndic {
+	width: 57px;
+}
+.mn_dedic {
+	width: 57px;
+}
+.mn_opencalendar {
+	width: 58px;
+}
+.mn_phrasebook {
+	width: 58px;
+}
+.mn_grafolio {
+	width: 58px;
+}
+.mn_opencast {
+	width: 59px;
+}
+.mn_radio {
+	width: 59px;
+}
+.mn_nvnews {
+	width: 59px;
+}
+.mn_newspaper {
+	width: 60px;
+}
+.mn_rudic {
+	width: 67px;
+}
+.mn_vndic {
+	width: 68px;
+}
+.mn_trend {
+	width: 68px;
+}
+.mn_spdic {
+	width: 68px;
+}
+.mn_frdic {
+	width: 68px;
+}
+.mn_navercast {
+	width: 69px;
+}
+.mn_shootingprice {
+	width: 69px;
+}
+.mn_endic {
+	width: 73px;
+}
+.mn_dna {
+	width: 78px;
+}
+.hmenu dd img {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -400px 0px;
+}
+.hmenu dd img.new {
+	background-position: -400px 0px;
+}
+.hmenu dd img.ndrive {
+	background-position: -400px -20px;
+}
+.hmenu dd img.qr {
+	background-position: -400px -60px;
+}
+.hmenu dd img.baseball {
+	background-position: -400px -80px;
+}
+.hmenu dd img.mileage {
+	background-position: -400px -180px;
+}
+.hmenu dd img.line {
+	background-position: -400px -120px;
+}
+.hmenu dd img.ico_election {
+	background-position: -400px -100px;
+}
+.hmenu dd img.london2012 {
+	background-position: -390px -340px;
+}
+.hmenu dd span.ic {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -400px 0px; margin: 0px 3px 0px 6px; width: 16px; height: 16px; float: left; position: static;
+}
+.hmenu dd span.new {
+	background-position: -400px 0px;
+}
+.hmenu dd span.ndrive {
+	background-position: -400px -20px;
+}
+.hmenu dd span.qr {
+	background-position: -400px -60px;
+}
+.hmenu dd span.baseball {
+	background-position: -400px -80px;
+}
+.hmenu dd span.mileage {
+	background-position: -400px -180px;
+}
+.hmenu dd span.line {
+	background-position: -400px -120px;
+}
+.hmenu dd span.london2012 {
+	background-position: -390px -340px;
+}
+.svcmore {
+	top: 197px; width: 635px; clear: both; position: absolute; z-index: 13; background-color: rgb(255, 255, 255);
+}
+.svcmore .shadow {
+	background: url("http://img.naver.net/static/www/2014/bg_shadow_v3.png"); width: 100%; height: 2px; overflow: hidden;
+}
+.svc_cont {
+	border: 1px solid rgb(136, 141, 149); border-image: none; position: relative; background-color: rgb(255, 255, 255);
+}
+.svcmore .desc {
+	left: -1px; height: 12px; bottom: 55px; color: rgb(132, 134, 137); line-height: 12px; letter-spacing: -1px; padding-left: 16px; font-size: 0.92em; position: absolute;
+}
+.svcmore .ic_m {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") -300px -120px; margin: 0px 4px 0px 2px; width: 11px; height: 11px; line-height: 0; overflow: hidden; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.svc_list {
+	background: url("http://img.naver.net/static/www/2014/bg_svcmore201406.png") repeat-y; margin: 15px 15px 0px 16px; width: 601px; letter-spacing: -1px; overflow: hidden; padding-bottom: 0px; position: relative; min-height: 252px;
+}
+.svc_list img {
+	margin: 3px 0px 1px -1px; vertical-align: 1px; _vertical-align: baseline;
+}
+.svc_list li {
+	height: 15px; color: rgb(107, 109, 112); line-height: 15px; margin-bottom: 5px; white-space: nowrap;
+}
+.svc_naver {
+	padding: 4px 0px 0px; width: 360px; overflow: hidden; float: left; _display: inline;
+}
+#svc_defmenu {
+	overflow: hidden;
+}
+#svc_selmenu {
+	overflow: hidden;
+}
+.svc_naver ul {
+	width: 114px; overflow: hidden; padding-left: 10px; float: left;
+}
+.svc_naver .f {
+	width: 112px; padding-left: 0px;
+}
+.svc_naver ul .input_check {
+	margin: 0px 3px; padding: 0px; width: 13px; height: 13px; vertical-align: top;
+}
+.svc_spc ul .input_check {
+	margin: 0px 3px; padding: 0px; width: 13px; height: 13px; vertical-align: top;
+}
+.nanum .svc_naver ul .input_check {
+	vertical-align: -4px;
+}
+.nanum .svc_spc ul .input_check {
+	vertical-align: -4px;
+}
+.svc_naver ul label {
+	vertical-align: -1px;
+}
+.svc_spc ul label {
+	vertical-align: -1px;
+}
+.svc_naver a {
+	color: rgb(107, 109, 112);
+}
+.svc_naver a:hover {
+	color: rgb(107, 109, 112);
+}
+.svc_spc_wrap {
+	padding: 11px 0px 0px; width: 240px; overflow: hidden; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid; float: left; position: relative;
+}
+.svc_spc {
+	width: 110px; overflow: hidden; padding-left: 10px; float: left; position: relative;
+}
+.svc_spc h3 {
+	height: 20px; color: rgb(47, 55, 67); line-height: 16px;
+}
+.svc_spc .help {
+	top: 0px; right: 16px; overflow: hidden; position: absolute;
+}
+.svc_spc .help a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -150px -120px; width: 14px; height: 14px; display: block;
+}
+.svc_spc ul {
+	padding: 1px 0px 8px;
+}
+.svc_spc li {
+	color: rgb(132, 134, 137); padding-bottom: 5px; margin-bottom: 0px;
+}
+.svc_spc li a {
+	color: rgb(107, 109, 112);
+}
+.svc_spc li a:hover {
+	color: rgb(107, 109, 112);
+}
+.svc_new li a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -430px -580px; padding-left: 15px;
+}
+#svc_newmenu li a {
+	font-weight: bold;
+}
+#svc_dic h3 a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -831px; color: rgb(46, 56, 66); padding-right: 8px;
+}
+.svc_new li a.on {
+	color: rgb(51, 153, 0); text-decoration: underline;
+}
+.svc_new li a.on:hover {
+	color: rgb(51, 153, 0); text-decoration: underline;
+}
+#svc_story {
+	padding: 12px 0px 0px; width: 89px; margin-top: -2px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+#svc_new_cast_help {
+	left: 353px; top: 74px; width: 223px;
+}
+#svc_new_cast_help .arrow {
+	left: 196px;
+}
+.svc_tools_lst {
+	background: url("http://img.naver.net/static/www/2014/bg_svcmore201406.png") no-repeat -601px 0px; margin: 0px 15px 15px 16px; padding: 15px 0px 9px; width: 601px; overflow: hidden; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; position: relative; -ms-zoom: 1;
+}
+.disabled#svc_story {
+	overflow: hidden; opacity: 0.4; -moz-opacity: 0.4; -khtml-opacity: 0.4;
+}
+#ws_service .disabled {
+	overflow: hidden; opacity: 0.4; -moz-opacity: 0.4; -khtml-opacity: 0.4;
+}
+.disabled a:hover {
+	text-decoration: none; cursor: default;
+}
+.disabled#svc_story h3 {
+	position: relative;
+}
+.disabled#svc_story a {
+	position: relative;
+}
+#ws_service .disabled.svc_tools_lst {
+	overflow: hidden; opacity: 1; -moz-opacity: 1; -khtml-opacity: 1;
+}
+#ws_service .disabled.svc_tools_lst h3 {
+	color: rgb(172, 175, 180);
+}
+#ws_service .disabled.svc_tools_lst a {
+	color: rgb(197, 197, 197); position: relative;
+}
+.svc_tools_lst h3 {
+	left: 0px; top: 28px; color: rgb(47, 55, 68); margin-right: 12px; position: absolute;
+}
+.svc_tools_lst ul {
+	padding: 12px 0px 0px 42px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.svc_tools_lst li {
+	padding-left: 8px; margin-left: 4px; display: inline-block;
+}
+.svc_tools_lst .f {
+	background: none; margin: 0px; padding: 0px;
+}
+.svc_tools_lst li a {
+	color: rgb(108, 109, 113); letter-spacing: -1px;
+}
+.svc_cont .action {
+	margin: 0px 15px; width: 601px; height: 40px; text-align: center; clear: both; position: relative;
+}
+.svc_cont .action button {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -149px -593px; border: 0px currentColor; border-image: none; width: 47px; height: 27px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.svc_cont .action .btn_viewall {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -877px; top: 7px; right: 0px; color: rgb(132, 134, 137); letter-spacing: -1px; padding-right: 7px; font-size: 0.92em; position: absolute;
+}
+.svc_cont .action .btn_viewall a {
+	color: rgb(132, 134, 137);
+}
+.svc_cont .action .close {
+	background-position: -149px -625px; margin-left: 2px;
+}
+.svc_cont .action .set {
+	background-position: -96px -657px; width: 94px;
+}
+.svc_cont .action .return {
+	background-position: -229px -687px; left: 1px; top: 0px; width: 60px; position: absolute;
+}
+.svc_cont .action .save:hover {
+	background-position: -201px -593px;
+}
+.svc_cont .action .close:hover {
+	background-position: -201px -625px;
+}
+.svc_cont .action .set:hover {
+	background-position: -195px -657px;
+}
+.svc_cont .action .return:hover {
+	background-position: -294px -687px;
+}
+.svc_info {
+	height: 33px; overflow: hidden; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid; background-color: rgb(246, 246, 246);
+}
+.svc_info ol li {
+	height: 33px;
+}
+.svc_info .s1 {
+	padding: 10px 0px 0px 15px; color: rgb(109, 108, 113); letter-spacing: -1px;
+}
+.svc_info .s2 {
+	padding: 12px 0px 0px 16px; color: rgb(108, 109, 111); font-size: 0.92em;
+}
+.svc_info .s3 {
+	padding: 12px 0px 0px 16px; color: rgb(108, 109, 111); font-size: 0.92em;
+}
+.svc_info .s2 {
+	color: rgb(133, 134, 136); letter-spacing: -1px;
+}
+.svc_info .s3 strong {
+	color: rgb(51, 153, 0);
+}
+.svc_info .at {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -185px -404px; margin: -3px 3px 0px 0px; width: 34px; height: 18px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.svc_list li span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") -220px -170px; margin: 3px 1px 0px 2px; width: 8px; height: 8px; line-height: 0; text-indent: -1000em; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.svc_tools_lst li span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") -220px -170px; margin: 3px 1px 0px 2px; width: 8px; height: 8px; line-height: 0; text-indent: -1000em; font-size: 0px; vertical-align: top; display: inline-block;
+}
+.svc_tools_lst li span {
+	margin-top: 1px;
+}
+.svc_list li .n {
+	background-position: -220px -170px;
+}
+.svc_tools_lst li .n {
+	background-position: -220px -170px;
+}
+.svc_list li .u {
+	background-position: -220px -180px;
+}
+.svc_tools_lst li .u {
+	background-position: -220px -180px;
+}
+.svcmore .svc_list .ic_m {
+	margin-top: 2px;
+}
+.rankup {
+	top: 134px; right: 0px; line-height: 1.5em; position: absolute;
+}
+.ranklist {
+	width: 157px; height: 20px; overflow: hidden; position: relative;
+}
+.ranklist dt {
+	line-height: 0; text-indent: -1000em; font-size: 0px;
+}
+.ranklist .more {
+	display: none;
+}
+.ranklist ol {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -420px 2px; width: 157px; clear: both; float: left;
+}
+.ranklist li {
+	width: 100%; height: 20px; clear: both; float: left; position: relative;
+}
+.ranklist a {
+	padding: 1px 0px 0px 26px; color: rgb(255, 255, 255); display: block;
+}
+.ranklist a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.ranklist li span {
+	top: 4px; width: 10px; height: 10px; text-align: center; right: 32px; color: rgb(47, 55, 67); letter-spacing: 0px; overflow: hidden; font-family: "tahoma",sans-serif; font-size: 10px; display: block; position: absolute;
+}
+.ranklist li .rk {
+	top: 3px; width: 35px; right: 5px; line-height: 10px; z-index: 4;
+}
+.ranklist li .tx {
+	font-size: 0px; z-index: 1;
+}
+.rankup li .ic {
+	z-index: 3; background-image: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png");
+}
+.rankup li.new .tx {
+	width: 26px; right: 16px;
+}
+.rankup li.new .ic {
+	width: 26px; right: 16px;
+}
+.rankup li.new .ic {
+	background-position: -70px -110px;
+}
+.rankup li.up .ic {
+	background-position: -96px -110px;
+}
+.rankup li.dw .ic {
+	background-position: -106px -110px;
+}
+.rankup li.sm .ic {
+	background-position: -116px -110px;
+}
+.rankpop {
+	border: 2px solid rgb(51, 151, 8); border-image: none; top: -9px; width: 154px; right: 0px; clear: both; position: absolute; z-index: 10; background-color: rgb(255, 255, 255);
+}
+.rankpop dt {
+	margin: 0px 0px 5px; padding: 3px 0px; text-align: center; color: rgb(51, 153, 0); line-height: 25px; letter-spacing: -1px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.rankpop dd {
+	clear: both;
+}
+.rankpop ol {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -417px -220px; margin: 3px 0px 5px; width: 100%; overflow: hidden;
+}
+.rankpop li {
+	width: 100%; height: 21px; clear: both; float: left; position: relative;
+}
+.rankpop li a {
+	padding: 2px 0px 1px 26px; width: 128px; color: rgb(47, 55, 67); display: block; position: relative; z-index: 2; cursor: pointer;
+}
+.rankpop li a:hover {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -182px -500px; color: rgb(47, 55, 67);
+}
+.rankpop li.on a {
+	letter-spacing: -1px; font-weight: bold;
+}
+.rankpop li span {
+	top: 5px; width: 10px; height: 11px; text-align: center; right: 27px; color: rgb(132, 134, 137); letter-spacing: 0px; overflow: hidden; font-family: "tahoma",sans-serif; font-size: 10px; display: block; position: absolute;
+}
+.rankpop li .rk {
+	top: 4px; width: 35px; right: 0px; line-height: 10px; z-index: 4;
+}
+.rankpop li .tx {
+	line-height: 0; text-indent: -1000em; font-size: 0px;
+}
+.rankpop li .ic {
+	z-index: 3; background-image: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png");
+}
+.rankpop li.new .tx {
+	width: 26px; right: 11px;
+}
+.rankpop li.new .ic {
+	width: 26px; right: 11px;
+}
+.rankpop li.new .ic {
+	background-position: -70px -121px;
+}
+.rankpop li.up .ic {
+	background-position: -96px -121px;
+}
+.rankpop li.dw .ic {
+	background-position: -106px -121px;
+}
+.rankpop li.sm .ic {
+	background-position: -116px -121px;
+}
+.rankpop li.new a:hover .ic {
+	background-position: -70px -132px;
+}
+.rankpop li.up a:hover .ic {
+	background-position: -96px -132px;
+}
+.rankpop li.dw a:hover .ic {
+	background-position: -106px -132px;
+}
+.rankpop li.sm a:hover .ic {
+	background-position: -116px -132px;
+}
+.rankpop p a {
+	color: rgb(132, 134, 137); letter-spacing: -1px; font-size: 0.92em;
+}
+.rankpop .more {
+	padding: 1px 9px 1px 0px; text-align: right; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid; _padding: 2px 9px 0 0;
+}
+.ranklist li a span.ell {
+	top: 0px; width: 90px; height: auto; text-align: left; right: 0px; color: rgb(255, 255, 255); overflow: hidden; display: block; white-space: nowrap; position: static; -ms-text-overflow: ellipsis;
+}
+.rankpop li a span.ell {
+	top: 0px; width: 90px; height: auto; text-align: left; right: 0px; color: rgb(255, 255, 255); overflow: hidden; display: block; white-space: nowrap; position: static; -ms-text-overflow: ellipsis;
+}
+.rankpop li a span.ell {
+	color: rgb(47, 55, 67);
+}
+#ad_top {
+	height: 105px;
+}
+#ad_branding {
+	height: 155px;
+}
+.cast_cnt {
+	border: 1px solid rgb(214, 214, 214); border-image: none; width: 633px; height: 244px; overflow: hidden; position: relative; background-color: rgb(255, 255, 255);
+}
+.cast_cnt h2 {
+	margin: 14px 0px 0px 15px;
+}
+.cast_cnt h2 a {
+	height: 14px; letter-spacing: -1px; display: block; background-image: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png");
+}
+.cast_cnt h2 a:hover {
+	text-decoration: none;
+}
+.h_news {
+	background-position: -184px -292px; width: 58px;
+}
+.h_open {
+	background-position: -70px -90px; width: 55px;
+}
+.h_theme {
+	background-position: -170px -100px; width: 55px;
+}
+.h_ncast {
+	background-position: -230px -100px; width: 66px;
+}
+.cast_cnt .page {
+	top: 213px; right: 129px; position: absolute;
+}
+.cast_cnt .page a {
+	margin: 0px; padding: 0px;
+}
+.cast_cnt .page span {
+	margin: 0px; padding: 0px;
+}
+.cast_cnt .page .num {
+	margin: 3px 2px 0px 0px;
+}
+.cast_cnt .page a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -191px -36px; width: 21px; height: 19px;
+}
+.cast_cnt .page .pre {
+	margin-right: -5px;
+}
+.cast_cnt .page .next {
+	background-position: -217px -36px;
+}
+#scroll {
+	width: 111px; height: 203px; position: relative; z-index: 1;
+}
+#scroll2 {
+	width: 111px; height: 203px; position: relative; z-index: 1;
+}
+#scroll .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 203px; overflow: hidden; position: absolute;
+}
+#scroll2 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 203px; overflow: hidden; position: absolute;
+}
+#scroll3 {
+	width: 111px; height: 128px; position: relative;
+}
+#scroll4 {
+	width: 111px; height: 128px; position: relative;
+}
+#scroll5 {
+	width: 111px; height: 128px; position: relative;
+}
+#scroll6 {
+	width: 111px; height: 128px; position: relative;
+}
+#scroll3 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 128px; overflow: hidden; position: absolute;
+}
+#scroll4 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 128px; overflow: hidden; position: absolute;
+}
+#scroll5 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 128px; overflow: hidden; position: absolute;
+}
+#scroll6 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 128px; overflow: hidden; position: absolute;
+}
+.scrollbar-content {
+	left: 0px; top: 0px; width: 111px; position: absolute;
+}
+.scrollbar-content ul {
+	line-height: 0; font-size: 0px;
+}
+.scrollbar-content li {
+	width: 98px; height: 17px; letter-spacing: -1px; overflow: hidden; position: relative;
+}
+.scrollbar-content li a {
+	width: 90%; height: 17px; color: rgb(136, 136, 136); padding-left: 9px; font-size: 11px; display: block;
+}
+.scrollbar-content li a span {
+	width: 66px; height: 17px; line-height: 17px; overflow: hidden; white-space: nowrap;
+}
+.scrollbar-content li.on a {
+	color: rgb(51, 153, 0); font-weight: bold; text-decoration: underline;
+}
+.scrollbar-content li.on a span {
+	text-decoration: underline;
+}
+.scrollbar-content .mpress_lst li.over {
+	background-color: rgb(236, 236, 236);
+}
+.scrollbar-content .press_lst li.over {
+	background-color: rgb(247, 247, 247);
+}
+.scrollbar-content li a:hover {
+	color: rgb(119, 119, 119) !important; text-decoration: underline;
+}
+.scrollbar-content li.over a {
+	color: rgb(119, 119, 119) !important; text-decoration: underline;
+}
+.scrollbar-content li.over a span {
+	color: rgb(119, 119, 119) !important; text-decoration: underline;
+}
+.scrollbar-content li.on a:hover {
+	color: rgb(51, 153, 0) !important;
+}
+.scrollbar-content li.on a:hover span {
+	color: rgb(51, 153, 0) !important;
+}
+.scrollbar-content li.mc a {
+	color: rgb(197, 197, 197) !important;
+}
+.scrollbar-content li.mc a span {
+	color: rgb(197, 197, 197) !important;
+}
+#scroll3 .scrollbar-content .press_lst li.over {
+	background-color: rgb(255, 255, 255);
+}
+#scroll3 .scrollbar-content .mpress_lst li.over {
+	background-color: rgb(247, 247, 247);
+}
+.scrollbar-content li.on a.over span {
+	color: rgb(51, 153, 0) !important;
+}
+.scrollbar-content#press_list li.mc a:hover {
+	color: rgb(187, 187, 187) !important;
+}
+.scrollbar-content#press_list li.mc a:hover span {
+	color: rgb(187, 187, 187) !important;
+}
+.scrollbar-content#press_list li.mc a.over span {
+	color: rgb(197, 197, 197) !important;
+}
+.scrollbar-v {
+	top: 0px; width: 17px; right: 0px; display: none; position: absolute; _right: -1px;
+}
+.scrollbar-v .scrollbar-track {
+	top: 0px; width: 17px; overflow: hidden; position: relative; background-color: rgb(249, 249, 249);
+}
+.scrollbar-v .scrollbar-thumb {
+	top: 0px; width: 17px; overflow: hidden; display: block; position: relative;
+}
+.scrollbar-v .scrollbar-thumb img {
+	display: block;
+}
+.scrollbar-v .scrollbar-thumb span {
+	display: block;
+}
+.scrollbar-v .scrollbar-thumb-body {
+	background: rgb(212, 212, 212); margin: 0px 2px; border-radius: 1px; width: 13px; height: 30px; display: block; -moz-border-radius: 1px; -webkit-border-radius: 1px;
+}
+.scrollbar-v .scrollbar-button-up {
+	width: 17px; height: 17px; overflow: hidden; position: relative; cursor: pointer;
+}
+.scrollbar-v .scrollbar-button-down {
+	width: 17px; height: 17px; overflow: hidden; position: relative; cursor: pointer;
+}
+.scrollbar-v .scrollbar-button-up {
+	top: 0px;
+}
+.scrollbar-v .scrollbar-button-up {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -208px -240px;
+}
+.scrollbar-v .scrollbar-button-up-hold {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -208px -240px;
+}
+.scrollbar-v .scrollbar-button-down {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -208px -262px;
+}
+.scrollbar-v .scrollbar-button-down-hold {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -208px -262px;
+}
+.scrollbar-show {
+	display: block;
+}
+.scrollbar-disabled .scrollbar-track {
+	background-color: rgb(252, 252, 252);
+}
+.scrollbar-disabled .scrollbar-thumb {
+	display: none;
+}
+.scrollbar-noscript .scrollbar-box {
+	overflow: hidden;
+}
+.scrollbar-noscript .scrollbar-h {
+	display: none;
+}
+.scrollbar-noscript .scrollbar-v {
+	display: none;
+}
+.scrollbar-noscript .scrollbar-disabled {
+	display: none;
+}
+.com_cast {
+	width: 300px; position: relative; z-index: 12;
+}
+#news_cast2 .news_rectype {
+	top: 8px; right: 15px; line-height: 13px; letter-spacing: -1px; position: absolute; z-index: 2;
+}
+#news_cast2 .news_rectype h3 a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -309px; padding: 6px 15px 0px 9px; border: 1px solid rgb(214, 214, 214); border-image: none; width: 87px; height: 16px; color: rgb(47, 55, 67) !important; overflow: hidden; font-size: 0.92em; text-decoration: none !important; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#news_cast2 .news_rectype h3 .no_type {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -309px; padding: 6px 15px 0px 9px; border: 1px solid rgb(214, 214, 214); border-image: none; width: 87px; height: 16px; color: rgb(47, 55, 67) !important; overflow: hidden; font-size: 0.92em; text-decoration: none !important; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#news_cast2 .news_rectype h3 .no_type {
+	opacity: 0.5;
+}
+#news_cast2 .news_rectype_open h3 a {
+	background-position: 94px -327px;
+}
+#news_cast2 .ly_rectype {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(208, 208, 209) rgb(208, 208, 209); border-image: none;
+}
+#news_cast2 .rectype_lst {
+	padding: 6px 0px;
+}
+#news_cast2 .rectype_lst li {
+	width: 98px; height: 17px; line-height: 17px; letter-spacing: -1px; overflow: hidden;
+}
+#news_cast2 .rectype_lst li.bad a {
+	color: rgb(204, 204, 204) !important; text-decoration: none; cursor: default;
+}
+#scroll7 {
+	width: 111px; height: 144px; position: relative;
+}
+#scroll9 {
+	width: 111px; height: 144px; position: relative;
+}
+#scroll7 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 144px; overflow: hidden; position: absolute;
+}
+#scroll9 .scrollbar-box {
+	left: 0px; top: 0px; width: 111px; height: 144px; overflow: hidden; position: absolute;
+}
+.cast2 {
+	margin: 0px 0px 5px; width: 635px; clear: both; position: relative; z-index: 5;
+}
+.newscast_top {
+	border: 1px solid rgb(214, 214, 214); border-image: none; width: 633px; height: 32px; overflow: hidden; margin-bottom: 5px; background-color: rgb(249, 249, 249);
+}
+.cast_flash {
+	overflow: hidden; padding-left: 16px; margin-top: 7px; float: left;
+}
+.cast_flash h3 {
+	letter-spacing: -1px; font-size: 11px; margin-right: 10px; float: left; white-space: nowrap;
+}
+.cast_flash h3 a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -184px -306px; width: 49px; height: 12px; line-height: 999px; overflow: hidden; margin-top: 3px; vertical-align: top; display: inline-block;
+}
+.cast_flash h3 a {
+	color: rgb(47, 55, 67) !important;
+}
+.cast_flash h3 a:hover {
+	color: rgb(47, 55, 67) !important;
+}
+.cast_flash h3 a:visited {
+	color: rgb(47, 55, 67) !important;
+}
+.cast_flash .cast_atc2 {
+	width: 280px; height: 20px; line-height: 20px; overflow: hidden; float: left;
+}
+.cast_flash .cast_atc2 li {
+	height: 20px;
+}
+.cast_link {
+	margin: 11px 10px 0px 0px; top: 0px; right: 0px; letter-spacing: -1px; font-size: 0.92em; position: absolute; _display: inline;
+}
+.cast_link li {
+	color: rgb(208, 208, 209); float: left;
+}
+.cast_link .ic {
+	margin: -1px 0px 0px 4px; position: relative;
+}
+.cast_link a {
+	margin: 0px 4px;
+}
+.cast_link a:hover {
+	margin: 0px 4px;
+}
+.cast2 .cast_cnt {
+	border: 1px solid rgb(214, 214, 214); border-image: none; height: 264px; background-color: rgb(248, 248, 248);
+}
+.cast_cnt .cast_cnt_top {
+	padding: 10px 17px 8px; height: 22px; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.cast_cnt .cast_cnt_top h2 {
+	margin: 4px 0px 0px; float: left;
+}
+.cast_cnt .cast_cnt_top a.newss_set {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -172px -705px; margin: 0px 0px 0px 7px; width: 41px; height: 20px; float: left;
+}
+.cast_cnt .cast_cnt_top .ss_mes {
+	margin: 5px 0px 0px 4px; color: rgb(114, 115, 120); letter-spacing: -1px; font-size: 0.92em; float: left;
+}
+.cast_cnt .cast_cnt_top .cast_type2 .ss_mes {
+	margin: 7px 1px 0px 0px; color: rgb(101, 102, 107); float: none;
+}
+.cast_cnt .cast_cnt_top .cast_type2 .ss_mes strong {
+	color: rgb(47, 55, 67);
+}
+.cast_cnt .cast_cnt_top .ss_mes2 {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -761px; margin: 5px 0px 0px 10px; padding-left: 10px; float: left;
+}
+.cast_cnt .cast_cnt_top .ss_mes2 .ss_mes2_a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -796px; color: rgb(114, 115, 120) !important; letter-spacing: -1px; padding-right: 5px; font-size: 0.92em; display: inline-block;
+}
+.newss_sort {
+	margin: 5px 0px 0px 11px; float: left;
+}
+.newss_sort a {
+	color: rgb(47, 55, 67); letter-spacing: -1px; font-size: 12px;
+}
+.newss_sort a.on {
+	font-weight: bold;
+}
+.newss_sort .bar {
+	margin: -2px 3px 0px 5px; width: 1px; height: 10px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(207, 208, 209);
+}
+.newss_sort2 {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -384px -952px; top: 8px; right: 137px; padding-right: 1px; position: absolute;
+}
+.newss_sort2 a {
+	width: 27px; height: 24px; line-height: 999px; overflow: hidden; margin-right: -1px; float: left;
+}
+.newss_sort2 .on.sort_thumb {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -384px -926px;
+}
+.newss_sort2 .on.sort_list {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -410px -926px;
+}
+.nctg {
+	width: 111px; position: relative; z-index: 4;
+}
+.btn_nctg {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -307px rgb(255, 255, 255); width: 102px; height: 26px; line-height: 27px; letter-spacing: -1px; overflow: hidden; padding-left: 9px; font-size: 0.92em; font-weight: bold; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+a.btn_nctg:hover {
+	color: rgb(47, 55, 67); text-decoration: none;
+}
+a.btn_nctg:visited {
+	color: rgb(47, 55, 67); text-decoration: none;
+}
+.nctg_on .btn_nctg {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -325px rgb(247, 247, 247);
+}
+.cpress_lst {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(214, 214, 214) rgb(214, 214, 214); padding: 5px 0px 4px; border-image: none; left: -1px; top: 27px; width: 111px; position: absolute; background-color: rgb(247, 247, 247);
+}
+.cpress_lst li {
+	width: 101px; line-height: 1.4em;
+}
+.cpress_lst li a {
+	width: 102px; color: rgb(136, 136, 136); letter-spacing: -1px; padding-left: 9px; font-size: 0.92em; display: block;
+}
+.cpress_lst li a:hover {
+	color: rgb(136, 136, 136); text-decoration: underline;
+}
+.cpress_lst li a:visited {
+	color: rgb(136, 136, 136);
+}
+.cpress_lst li.on a {
+	color: rgb(51, 153, 0); font-weight: 700; text-decoration: underline;
+}
+.cpress_lst li.on a:hover {
+	color: rgb(51, 153, 0); font-weight: 700; text-decoration: underline;
+}
+.cpress_lst li.on a:visited {
+	color: rgb(51, 153, 0); font-weight: 700; text-decoration: underline;
+}
+.cpress_lst li.bad a {
+	color: rgb(204, 204, 204); text-decoration: none; cursor: default;
+}
+.cast_type2 {
+	top: 8px; right: 14px; position: absolute; z-index: 2;
+}
+.cast2 .nctg {
+	width: 113px;
+}
+.cast2 .btn_nctg {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -309px rgb(255, 255, 255); border: 1px solid rgb(208, 208, 209); border-image: none; height: 22px; line-height: 23px;
+}
+.cast2 .nctg_on .btn_nctg {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 94px -327px rgb(255, 255, 255);
+}
+.cast2 .cpress_lst {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(232, 232, 232) rgb(208, 208, 209) rgb(208, 208, 209); border-image: none; left: 0px; top: 23px;
+}
+.cast2 .cast2_article {
+	padding: 15px 0px 0px; height: 208px;
+}
+.cast2 .my_media {
+	padding: 20px 8px 0px; height: 203px; background-color: rgb(255, 255, 255);
+}
+.newss_lst {
+	width: 582px; height: 165px; overflow: hidden; margin-left: 27px; position: relative;
+}
+.newss_lst .newss {
+	left: 0px; top: 0px; width: 5000px; line-height: 0; overflow: hidden; font-size: 0px; white-space: nowrap; position: absolute;
+}
+.newss_lst .newss ul {
+	margin: -7px 0px 0px; width: 594px; line-height: 18px; float: left; position: relative;
+}
+.newss_lst .newss li {
+	margin: 7px 12px 0px 0px; float: left; display: inline; position: relative;
+}
+.newss_lst .newss li a.newssa {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 0px -705px; padding: 3px; width: 81px; height: 73px; display: block; position: relative;
+}
+.newss_lst .newss li span.newssa {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 0px -705px; padding: 3px; width: 81px; height: 73px; display: block; position: relative;
+}
+.newss_lst .newss li img {
+	width: 81px; height: 73px;
+}
+.newss_lst .newss li a.newssa:hover {
+	background-position: 0px -793px;
+}
+.newss_lst .newss li.add a.newssa {
+	background-position: 0px -881px; text-indent: -9999px;
+}
+.newss_lst .newss li.add a.newssa:hover {
+	background-position: 0px -969px;
+}
+.newss_lst .newss li a.today {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -349px 0px; width: 30px; height: 27px; right: 1px; bottom: 1px; text-indent: -9999px; overflow: hidden; position: absolute;
+}
+.newss_lst .newss li span.today {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -349px 0px; width: 30px; height: 27px; right: 1px; bottom: 1px; text-indent: -9999px; overflow: hidden; position: absolute;
+}
+.newss_lst .newss li a.today:hover {
+	background-position: -349px -32px;
+}
+.newss_lst .newss .disabled a.newssa {
+	background-position: 0px -705px !important; cursor: default; opacity: 0.3;
+}
+.newss_lst .newss .disabled span.newssa {
+	background-position: 0px -705px !important; cursor: default; opacity: 0.3;
+}
+.newss_lst .newss .disabled a.today {
+	background-position: -254px -438px !important; cursor: default; opacity: 0.3;
+}
+.newss_lst .newss .disabled span.today {
+	background-position: -254px -438px !important; cursor: default; opacity: 0.3;
+}
+.my_media .mm_mes1 {
+	margin: 50px 0px 10px; text-align: center; color: rgb(105, 108, 113); line-height: 17px;
+}
+.my_media .mm_mes1 strong {
+	color: rgb(67, 75, 85);
+}
+.my_media .mm_bt a.add_media {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -174px -863px; margin: 0px auto; width: 111px; height: 31px; text-indent: -9999px; overflow: hidden; display: block;
+}
+.cast2 .cast2_media {
+	width: 287px; padding-right: 0px; margin-left: 18px; float: left; display: inline; position: relative;
+}
+.cast2 .cast2_media .cast2_media_top {
+	margin: 0px 0px 10px; height: 17px; color: rgb(147, 148, 151); letter-spacing: -1px; overflow: hidden; padding-left: 2px; font-size: 11px;
+}
+.cast2 .cast2_media .cast2_media_top h3 {
+	vertical-align: 1px; display: inline;
+}
+.cast2 .cast2_media .cast2_media_top h3 img {
+	vertical-align: middle;
+}
+.cast2 .cast2_media .cast2_media_top em {
+	color: rgb(147, 148, 151); letter-spacing: 0px; font-family: "tahoma"; margin-right: -1px;
+}
+.cast2 .cast2_media .cast2_media_top .today {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -244px -238px; margin: -2px 0px 0px 4px; width: 14px; height: 17px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.cast2 .cast2_media .cast2_media_top .date {
+	margin: 0px -1px 0px 4px;
+}
+.cast2 .cast2_media .cast2_media_top .bar {
+	margin: -2px 0px 0px 2px; width: 1px; height: 9px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(212, 212, 213);
+}
+.cast2 .cast2_media .cast2_media_top .del {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -256px -630px; width: 20px; height: 17px; line-height: 999px; overflow: hidden; margin-top: 1px; vertical-align: top; display: inline-block;
+}
+.cast2 .cast2_media .cast2_media_top .btn_subs2 {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -173px -736px; margin: -1px 0px 0px 4px; width: 30px; height: 14px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.cast2 .cast2_media ul {
+	line-height: 23px;
+}
+.cast2 .cast2_media ul li {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 2px -169px; padding: 0px 0px 0px 9px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.cast2 .cast2_media ul li a:visited {
+	color: rgb(178, 178, 178) !important;
+}
+.cast2 .cast2_media a.plus_media {
+	margin: 0px 0px 0px 2px; padding: 57px 0px 0px; border: 1px dashed rgb(223, 224, 227); border-image: none; width: 284px; height: 103px; text-align: center; color: rgb(165, 165, 165); letter-spacing: -1px; text-decoration: none !important; display: block;
+}
+.cast2 .cast2_media a.plus_media span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -290px -863px; margin: 0px auto 10px; width: 25px; height: 25px; overflow: hidden; display: block;
+}
+.cast2 .cast2_media a.plus_media:hover {
+	color: rgb(82, 82, 82);
+}
+.cast2 .cast2_media a.plus_media:hover span {
+	background-position: -320px -863px;
+}
+.cast2 .cast2_media .waiting {
+	padding: 1px 0px 0px; border: 1px solid rgb(178, 178, 178); border-image: none; left: 59px; top: 18px; width: 155px; height: 27px; text-align: center; color: rgb(45, 55, 67); line-height: 29px; letter-spacing: -1px; font-size: 0.92em; position: absolute; background-color: rgb(255, 255, 255);
+}
+.cast2 .newss_ft {
+	left: 17px; bottom: 10px; position: absolute;
+}
+.cast2 .newss_ft a.mm_set {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -248px; padding: 1px 0px 0px 16px; height: 13px; color: rgb(108, 109, 111) !important; line-height: 12px; letter-spacing: -1px; font-size: 0.92em; display: inline-block;
+}
+.cast2 .newss_ft a.mm_noti {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -636px; padding: 1px 7px 0px 0px; height: 13px; color: rgb(108, 109, 111); line-height: 12px; letter-spacing: -1px; font-size: 0.92em; display: inline-block;
+}
+.cast2 .newss_ft .bar {
+	margin: 0px 3px; color: rgb(208, 209, 211); font-size: 11px;
+}
+.ly_media_close {
+	margin: -48px 0px 0px -92px; border: 1px solid rgb(116, 120, 126); border-image: none; left: 50%; top: 50%; width: 182px; height: 92px; line-height: 19px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.ly_media_close p {
+	padding: 15px 0px 3px; text-align: center; color: rgb(47, 55, 67);
+}
+.ly_media_close p strong {
+	color: rgb(28, 147, 0);
+}
+.ly_media_close .lmc_act {
+	text-align: center;
+}
+.ly_media_close .lmc_act a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 0px 0px; width: 39px; height: 21px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.ly_media_close .lmc_act a.lmc_check {
+	background-position: -398px -657px;
+}
+.ly_media_close .lmc_act a.lmc_cancel {
+	background-position: -398px -683px;
+}
+.ly_media_close .lmc_close {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -359px -687px; top: 0px; width: 27px; height: 27px; right: 0px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+.ly_mynews_set {
+	left: 0px; top: 41px; width: 633px; height: 206px; text-align: center; padding-top: 17px; position: absolute;
+}
+.ly_mynews_set img {
+	left: 1px; position: relative; z-index: 50;
+}
+.ly_mynews_set .set_dimmed {
+	left: 0px; top: 0px; width: 100%; height: 223px; position: absolute; opacity: 0.7; background-color: rgb(255, 255, 255);
+}
+.ly_mynews_set2 {
+	left: 0px; top: 41px; width: 633px; height: 202px; text-align: center; padding-top: 21px; position: absolute;
+}
+.ly_mynews_set2 img {
+	left: 1px; position: relative; z-index: 50;
+}
+.ly_mynews_set2 .set_dimmed {
+	left: 0px; top: 0px; width: 100%; height: 223px; position: absolute; opacity: 0.7; background-color: rgb(255, 255, 255);
+}
+.ly_mynews_set2 .mynews_set_hide {
+	left: 0px; top: 149px; width: 100%; letter-spacing: -1px; font-size: 11px; position: absolute; z-index: 100; lne-height: 18px;
+}
+.ly_mynews_set2 .mynews_set_hide input {
+	width: 13px; height: 13px; margin-right: 3px; vertical-align: middle; cursor: pointer;
+}
+.ly_mynews_set2 .mynews_set_hide label {
+	color: rgb(136, 136, 136); vertical-align: -1px; display: inline-block;
+}
+.button_login {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(182, 184, 187) rgb(182, 184, 187) currentColor; padding: 1px; border-image: none; width: 296px; height: 96px; background-color: rgb(255, 255, 255);
+}
+.button_login .bl_inner {
+	padding: 11px 0px 0px 10px; width: 286px; height: 84px; color: rgb(146, 146, 146); line-height: 18px; letter-spacing: -1px; font-size: 0.92em; border-bottom-color: rgb(236, 237, 237); border-bottom-width: 1px; border-bottom-style: solid; position: relative; background-color: rgb(243, 244, 243);
+}
+.button_login .bl_rolling {
+	width: 274px; height: 18px; overflow: hidden;
+}
+.button_login .bl_rolling li {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.button_login a {
+	padding: 3px 5px; color: rgb(95, 97, 100); display: inline-block;
+}
+.button_login .bar {
+	margin: 0px -2px 0px -3px; color: rgb(197, 197, 197);
+}
+.button_login .bl_btn {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -88px -1023px; margin: 2px 0px 0px 1px; width: 274px; height: 36px; line-height: 999px; overflow: hidden; vertical-align: top; display: block;
+}
+.button_login .acc_find {
+	left: 5px; bottom: 0px; position: absolute;
+}
+.button_login .join {
+	right: 5px; bottom: 0px; position: absolute;
+}
+#time_square {
+	background: rgb(248, 248, 248); border: 1px solid rgb(181, 183, 186); border-image: none; width: 298px; height: 157px; overflow: hidden; margin-bottom: 2px; position: relative; -ms-zoom: 1;
+}
+.tsq a:visited {
+	color: rgb(110, 73, 135);
+}
+.tsq a:visited * {
+	color: rgb(110, 73, 135);
+}
+.tsq a:hover {
+	color: rgb(51, 153, 0);
+}
+.tsq a:hover * {
+	color: rgb(51, 153, 0);
+}
+.tsq .title a {
+	color: rgb(74, 80, 87);
+}
+.tsq .title a:hover {
+	color: rgb(74, 80, 87);
+}
+.tsq .title a:visited {
+	color: rgb(74, 80, 87);
+}
+.tsq dt a {
+	color: rgb(74, 80, 87);
+}
+.tsq dt a:hover {
+	color: rgb(74, 80, 87);
+}
+.tsq dt a:visited {
+	color: rgb(74, 80, 87);
+}
+.tsq_h {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -247px -291px; left: 12px; top: 14px; width: 34px; height: 13px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+.tsq_wt {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; margin: -3px 0px -1px; width: 18px; height: 16px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.tsq_wt1 {
+	background-position: -174px -769px; width: 16px;
+}
+.tsq_wt2 {
+	background-position: -194px -769px; width: 15px;
+}
+.tsq_wt3 {
+	background-position: -214px -769px; width: 16px;
+}
+.tsq_wt4 {
+	background-position: -235px -769px; width: 13px;
+}
+.tsq_wt5 {
+	background-position: -253px -769px; width: 13px;
+}
+.tsq_wt9 {
+	background-position: -374px -769px; width: 16px;
+}
+.tsq_wt10 {
+	background-position: -271px -769px; width: 13px;
+}
+.tsq_wt16 {
+	background-position: -289px -769px; width: 18px;
+}
+.tsq_wt18 {
+	background-position: -312px -769px; width: 16px;
+}
+.tsq_wt19 {
+	background-position: -333px -769px; width: 16px;
+}
+.tsq_wt22 {
+	background-position: -354px -769px; width: 15px;
+}
+.tsq_wtb {
+	background: url("http://img.naver.net/static/www/2014/sp_weather_big.jpg") no-repeat; left: 0px; top: 0px; width: 40px; height: 34px; text-indent: -9999px; overflow: hidden; position: absolute;
+}
+.tsq_wtb1 {
+	background-position: 0px 0px;
+}
+.tsq_wtb2 {
+	background-position: -50px 0px;
+}
+.tsq_wtb3 {
+	background-position: -100px 0px;
+}
+.tsq_wtb4 {
+	background-position: -150px 0px;
+}
+.tsq_wtb5 {
+	background-position: -200px 0px;
+}
+.tsq_wtb6 {
+	background-position: -250px 0px;
+}
+.tsq_wtb7 {
+	background-position: -300px 0px;
+}
+.tsq_wtb8 {
+	background-position: -350px 0px;
+}
+.tsq_wtb9 {
+	background-position: -400px 0px;
+}
+.tsq_wtb10 {
+	background-position: -450px 0px;
+}
+.tsq_wtb11 {
+	background-position: -500px 0px;
+}
+.tsq_wtb12 {
+	background-position: -550px 0px;
+}
+.tsq_wtb13 {
+	background-position: -600px 0px;
+}
+.tsq_wtb14 {
+	background-position: -650px 0px;
+}
+.tsq_wtb15 {
+	background-position: -700px 0px;
+}
+.tsq_wtb16 {
+	background-position: -750px 0px;
+}
+.tsq_wtb17 {
+	background-position: -800px 0px;
+}
+.tsq_wtb18 {
+	background-position: -850px 0px;
+}
+.tsq_wtb19 {
+	background-position: -900px 0px;
+}
+.tsq_wtb20 {
+	background-position: -950px 0px;
+}
+.tsq_wtb21 {
+	background-position: -1000px 0px;
+}
+.tsq_wtb22 {
+	background-position: -1050px 0px;
+}
+.tsq_status {
+	top: 13px; right: 12px; line-height: 13px; font-size: 0.92em; position: absolute; z-index: 1;
+}
+.tsq_status em {
+	letter-spacing: 0px; font-family: "tahoma",sans-serif; font-weight: bold; margin-top: -2px;
+}
+.tsq_status .date {
+	color: rgb(107, 109, 112);
+}
+.tsq_status a.date {
+	color: rgb(107, 109, 112);
+}
+.tsq_status .wt {
+	display: inline-block; -ms-zoom: 1;
+}
+.tsq_status .date em {
+	color: rgb(107, 109, 112); margin-right: 2px;
+}
+.tsq_status .bar {
+	margin: 0px 2px; color: rgb(201, 201, 201); font-size: 11px;
+}
+.tsq_status a.qlink {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -637px; color: rgb(107, 109, 112); letter-spacing: -1px; padding-right: 7px;
+}
+.tsq_status a.qdown {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -659px; color: rgb(107, 109, 112); letter-spacing: -1px; padding-right: 8px; display: inline-block;
+}
+.tsq_status a.qdown strong {
+	color: rgb(107, 109, 112); font-weight: normal;
+}
+.tsq_status a.qdown .dep2 {
+	color: rgb(176, 177, 182);
+}
+.tsq_status .tsqs_wt {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -635px; color: rgb(107, 109, 112) !important; letter-spacing: -1px; padding-right: 7px; display: inline-block;
+}
+.tsq_status .hide {
+	display: none !important;
+}
+.tsq_status .tsqs_wt em {
+	color: rgb(107, 109, 112);
+}
+.tsq_status .tsqs_wt .dg {
+	color: rgb(107, 109, 112); font-size: 12px;
+}
+.ly_selarea {
+	background: rgb(248, 248, 248); border: 1px solid rgb(182, 181, 186); border-image: none; left: -1px; top: -1px; width: 298px; height: 157px; position: absolute; z-index: 5;
+}
+.ly_selarea .ly_selarea_close {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -360px -449px; top: 4px; width: 25px; height: 24px; right: 4px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+#scroll8 {
+	width: 298px; height: 123px; position: relative;
+}
+#scroll8 .scrollbar-box {
+	left: 0px; top: 0px; width: 298px; height: 123px; overflow: hidden; position: absolute;
+}
+#scroll8 .scrollbar-v .scrollbar-track {
+	background: rgb(248, 248, 248);
+}
+#scroll8 .scrollbar-content {
+	width: auto;
+}
+.ly_selarea h5 {
+	padding: 12px 0px 0px 11px; width: 260px; height: 21px; color: rgb(109, 109, 111); overflow: hidden; font-size: 1.09em; font-weight: normal; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ly_selarea h5 a {
+	color: rgb(107, 109, 112) !important;
+}
+.ly_selarea h5 a:hover {
+	color: rgb(107, 109, 112) !important;
+}
+.ly_selarea h5 a strong {
+	color: rgb(51, 51, 51) !important;
+}
+.ly_selarea .rectype_lst {
+	padding: 6px 0px 6px 11px; overflow: hidden; -ms-zoom: 1;
+}
+.ly_selarea .rectype_lst li {
+	margin: 0px; width: 69px; height: 19px; line-height: 18px; letter-spacing: -1px; float: left;
+}
+.ly_selarea .rectype_lst li a {
+	padding: 0px; width: 69px; height: auto; color: rgb(51, 51, 51); line-height: 18px; overflow: hidden; font-size: 11px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ly_selarea .rectype_lst li a:hover {
+	color: rgb(51, 51, 51) !important;
+}
+.ly_selarea .rectype_lst li.on a {
+	color: rgb(255, 0, 0) !important; text-decoration: none;
+}
+.ly_selarea .rectype_lst_outside li {
+	width: 87px;
+}
+.ly_selarea .rectype_lst_outside li a {
+	width: 87px;
+}
+.ly_selarea .sel_mes {
+	padding: 56px 0px 0px; width: 284px; text-align: center; color: rgb(107, 109, 112); letter-spacing: -1px; font-size: 11px;
+}
+.tsq_slide .up {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .down {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .default {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .up .gap {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .down .gap {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .default .gap {
+	color: rgb(252, 52, 61); font-family: "tahoma",sans-serif;
+}
+.tsq_slide .up .mk {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -269px -262px; width: 7px; height: 6px; line-height: 999px; overflow: hidden; vertical-align: 1px; display: inline-block;
+}
+.tsq_slide .down .mk {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -269px -262px; width: 7px; height: 6px; line-height: 999px; overflow: hidden; vertical-align: 1px; display: inline-block;
+}
+.tsq_slide .default .mk {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -269px -262px; width: 7px; height: 6px; line-height: 999px; overflow: hidden; vertical-align: 1px; display: inline-block;
+}
+.tsq_slide .down {
+	color: rgb(32, 124, 227);
+}
+.tsq_slide .down .gap {
+	color: rgb(32, 124, 227);
+}
+.tsq_slide .down .mk {
+	background-position: -269px -277px;
+}
+.tsq_slide .default {
+	color: rgb(102, 102, 102);
+}
+.tsq_slide .default .gap {
+	color: rgb(102, 102, 102);
+}
+.tsq_slide .default .mk {
+	background-position: -257px -262px;
+}
+.tsq_slide {
+	width: 298px; height: 157px;
+}
+.tsq_slide a.tit {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -614px; color: rgb(47, 55, 67); padding-right: 6px; font-weight: bold; margin-right: 3px;
+}
+.tsq_slide a.tit_st {
+	background-position: 100% -691px;
+}
+.tsq_slide a.tit_st strong {
+	color: rgb(241, 39, 48);
+}
+.tsq_slide .tit_st2 {
+	background: none; color: rgb(241, 39, 48); padding-right: 0px; margin-right: 3px;
+}
+.tsq_slide a:visited .tit_st2 {
+	color: rgb(241, 39, 48) !important;
+}
+.tsq_slide .tit_st2::after {
+	margin: 5px 0px 0px 6px; width: 0px; height: 9px; vertical-align: top; border-left-color: rgb(187, 188, 192); border-left-width: 1px; border-left-style: solid; display: inline-block; content: "";
+}
+.tsq_list {
+	line-height: 21px; padding-right: 12px;
+}
+.tsq_list li {
+	width: 100%; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tsq_list a {
+	color: rgb(47, 55, 67);
+}
+.tsq_list .bar {
+	color: rgb(197, 197, 197);
+}
+.tsq_list .hot {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -254px -219px; width: 30px; height: 13px; line-height: 999px; overflow: hidden; margin-top: -1px; vertical-align: middle; display: inline-block;
+}
+.tsq_finan {
+	line-height: 21px; position: relative;
+}
+.tsq_finan dt {
+	display: inline;
+}
+.tsq_finan dd {
+	display: inline;
+}
+.tsq_finan .hide {
+	display: none;
+}
+.tsq_finan .finan .val {
+	font-family: "tahoma",sans-serif; font-weight: normal;
+}
+.tsq_list2 {
+	overflow: hidden; margin-right: 12px; -ms-zoom: 1; _width: 153px;
+}
+.tsq_list2 li {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -722px; width: 100%; overflow: hidden; padding-left: 5px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tsq_h5 {
+	line-height: 21px; letter-spacing: -1px; overflow: hidden; font-size: 12px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.finan_search {
+	border: 1px solid rgb(208, 208, 208); border-image: none; top: 1px; width: 63px; height: 16px; right: 12px; overflow: hidden; position: absolute;
+}
+.finan_search .input_finan {
+	border-width: 0px 1px 0px 0px; border-style: none solid none none; border-color: currentColor rgb(208, 208, 208) currentColor currentColor; padding: 1px 0px 0px 3px; border-image: none; left: 0px; top: 0px; width: 42px; height: 15px; color: rgb(202, 202, 202); line-height: 14px; font-size: 11px; vertical-align: top; position: absolute;
+}
+.finan_search .focus.input_finan {
+	color: rgb(0, 0, 0);
+}
+.finan_search .btn_finan {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -264px -239px; border: 0px currentColor; border-image: none; top: 0px; width: 17px; height: 16px; right: 0px; text-indent: -9999px; overflow: hidden; vertical-align: top; position: absolute; _right: -1px;
+}
+.tsq_news_wrap {
+	margin: 0px 0px 0px 12px; padding-top: 36px;
+}
+.tsq_hot_wrap {
+	margin: 0px 0px 0px 12px; padding-top: 36px;
+}
+.tsq_bn {
+	padding-top: 4px; margin-bottom: 5px;
+}
+.tsq_bn img {
+	vertical-align: top;
+}
+.tsq_thumb {
+	margin: 4px 8px 0px 0px; float: left;
+}
+.tsq_bg_wrap {
+	padding: 36px 20px 0px 12px; width: 266px; height: 121px;
+}
+.tsq_bg_wrap .tsq_list li {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -722px; padding-left: 5px;
+}
+.tsq_bg_wrap .tsq_list li a {
+	display: inline-block;
+}
+.tsq_life_wrap {
+	margin: 0px 0px 0px 12px; padding-top: 34px;
+}
+.tsq_weather {
+	width: 274px; margin-bottom: 3px; border-bottom-color: rgb(252, 252, 252); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tsq_weather .tw_a {
+	width: 274px; height: 39px; text-decoration: none !important; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid; display: block; cursor: pointer;
+}
+.tsq_weather .tw_a:hover {
+	color: rgb(47, 55, 67);
+}
+.tsq_weather .tw_a .to {
+	height: 34px; clear: right; float: left; display: inline; position: relative;
+}
+.tsq_weather .tw_a .ym {
+	height: 34px; clear: right; float: left; display: inline; position: relative;
+}
+.tsq_weather .tw_a .ya {
+	height: 34px; clear: right; float: left; display: inline; position: relative;
+}
+.tsq_weather .tw_a .out {
+	height: 34px; clear: right; float: left; display: inline; position: relative;
+}
+.tsq_weather .tw_a .to {
+	width: 78px; margin-right: 7px;
+}
+.tsq_weather .tw_a .ym {
+	width: 85px; margin-right: 9px;
+}
+.tsq_weather .tw_a .ya {
+	width: 86px; margin-right: 7px;
+}
+.tsq_weather .tw_a .out {
+	width: 84px; margin-right: 7px;
+}
+.tsq_weather .tw_a .out_end {
+	margin-right: 6px;
+}
+.tsq_weather .tw_a .tw_box {
+	padding: 5px 0px 0px 40px; text-align: center; display: block; white-space: nowrap;
+}
+.tsq_weather .tw_a .tw_tit {
+	color: rgb(133, 134, 138); letter-spacing: -1px; font-size: 11px; font-weight: normal; display: block;
+}
+.tsq_weather .tw_a .deg {
+	color: rgb(47, 55, 67); text-indent: 1px; font-weight: bold; display: block;
+}
+.tsq_weather .tw_a .deg em {
+	color: rgb(47, 55, 67); font-family: "tahoma",sans-serif;
+}
+.tsq_weather .tw_a .out .tw_box {
+	line-height: 11px; padding-top: 1px;
+}
+.tsq_weather .tw_a .out .deg_max {
+	color: rgb(239, 13, 0); text-indent: 3px; font-weight: bold; display: block;
+}
+.tsq_weather .tw_a .out .deg_curr {
+	color: rgb(239, 13, 0); text-indent: 3px; font-weight: bold; display: block;
+}
+.tsq_weather .tw_a .out .deg_curr {
+	color: rgb(44, 108, 217); margin-top: 1px;
+}
+.tsq_weather .tw_a .out .deg_max em {
+	font-family: "tahoma",sans-serif; font-size: 11px; font-weight: bold;
+}
+.tsq_weather .tw_a .out .deg_curr em {
+	font-family: "tahoma",sans-serif; font-size: 11px; font-weight: bold;
+}
+.tsq_weather .tw_a .out .deg_max em {
+	color: rgb(239, 13, 0);
+}
+.tsq_weather .tw_a .out .deg_curr em {
+	color: rgb(44, 108, 217);
+}
+.tsq_weather ul {
+	width: 254px; height: 39px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tsq_weather ul li {
+	height: 34px; float: left; position: relative;
+}
+.tsq_weather ul .to {
+	width: 78px; margin-right: 7px;
+}
+.tsq_weather ul .ym {
+	width: 85px; margin-right: 9px;
+}
+.tsq_weather ul .ya {
+	width: 86px; margin-right: 7px;
+}
+.tsq_weather ul .out {
+	width: 84px; margin-right: 7px;
+}
+.tsq_weather ul .out_end {
+	margin-right: 6px;
+}
+.tsq_weather dl {
+	padding: 5px 0px 0px 40px; text-align: center; white-space: nowrap;
+}
+.tsq_weather dl dt {
+	color: rgb(133, 134, 138); letter-spacing: -1px; font-size: 11px;
+}
+.tsq_weather dl .deg {
+	text-indent: 1px; font-weight: bold;
+}
+.tsq_weather dl .deg em {
+	font-family: "tahoma",sans-serif;
+}
+.tsq_weather .out dl {
+	line-height: 11px; padding-top: 1px;
+}
+.tsq_weather .out dl .deg_max {
+	color: rgb(239, 13, 0); text-indent: 3px; font-weight: bold; display: block;
+}
+.tsq_weather .out dl .deg_curr {
+	color: rgb(239, 13, 0); text-indent: 3px; font-weight: bold; display: block;
+}
+.tsq_weather .out dl .deg_curr {
+	color: rgb(44, 108, 217); margin-top: 1px;
+}
+.tsq_weather .out dl .deg_max em {
+	font-family: "tahoma",sans-serif; font-size: 11px; font-weight: bold;
+}
+.tsq_weather .out dl .deg_curr em {
+	font-family: "tahoma",sans-serif; font-size: 11px; font-weight: bold;
+}
+.tsq_eco_wrap {
+	margin: 0px 0px 0px 12px; padding-top: 34px;
+}
+.tsq_stock {
+	width: 274px; line-height: 14px; padding-top: 2px; margin-bottom: 3px; border-bottom-color: rgb(252, 252, 252); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tsq_stock ul {
+	width: 274px; height: 37px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tsq_stock ul li {
+	width: 137px; float: left; white-space: nowrap;
+}
+.tsq_stock h5 {
+	color: rgb(132, 134, 137); font-size: 11px; font-weight: normal; margin-bottom: 1px;
+}
+.tsq_stock .val {
+	color: rgb(47, 55, 67) !important; font-family: "tahoma",sans-serif; font-size: 15px; font-weight: bold; margin-right: 0px; vertical-align: -1px;
+}
+.tsq_stock .mk {
+	margin-right: -2px;
+}
+.tsq_stock .gap {
+	font-size: 11px;
+}
+.tsq_today_stock {
+	padding: 2px 0px 0px; width: 274px; line-height: 21px; position: relative;
+}
+.tsq_today_stock h5 .tit {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 100% -614px; color: rgb(47, 55, 67); letter-spacing: -1px; padding-right: 6px; font-size: 12px;
+}
+.tsq_today_stock p {
+	top: 3px; right: 0px; color: rgb(174, 178, 183); letter-spacing: -1px; font-size: 11px; position: absolute;
+}
+.tsq_today_stock p em {
+	letter-spacing: 0px;
+}
+.tsq_today_stock li {
+	height: 21px;
+}
+.tsq_today_stock li strong {
+	overflow: hidden; float: left;
+}
+.tsq_today_stock li span {
+	overflow: hidden; float: left;
+}
+.tsq_today_stock li em {
+	overflow: hidden; float: left;
+}
+.tsq_today_stock .nm {
+	width: 85px; color: rgb(47, 55, 67); letter-spacing: -1px; font-weight: normal;
+}
+.tsq_today_stock .val {
+	width: 85px; text-align: right; line-height: 19px; font-family: "tahoma",sans-serif; font-weight: normal;
+}
+.tsq_today_stock .up {
+	width: 88px; line-height: 19px; margin-left: 16px;
+}
+.tsq_today_stock .down {
+	width: 88px; line-height: 19px; margin-left: 16px;
+}
+.tsq_today_stock .default {
+	width: 88px; line-height: 19px; margin-left: 16px;
+}
+.tsq_today_stock .mk {
+	margin: 7px 4px 0px 0px;
+}
+.tsq_today_stock .gap {
+	width: 37px;
+}
+.tsq_today_stock .per {
+	width: 40px; text-align: right;
+}
+.tsq_wg {
+	left: 12px; top: 125px; position: absolute; z-index: 3;
+}
+.tsq_wg a.tsq_wg_open {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat 0px -142px; width: 63px; height: 22px; text-indent: -9999px; overflow: hidden; display: block;
+}
+.tsq_wg .ly_tsq_wg {
+	background: rgb(248, 248, 248); padding: 14px 12px 0px 14px; left: -12px; top: -125px; width: 272px; height: 143px; line-height: 18px; position: absolute;
+}
+.tsq_wg .ly_tsq_wg h5 {
+	margin: 0px 0px 5px 3px; color: rgb(47, 55, 67); letter-spacing: -1px; font-size: 12px;
+}
+.tsq_wg .ly_tsq_wg ul {
+	width: 272px; overflow: hidden;
+}
+.tsq_wg .ly_tsq_wg li {
+	margin: 1px 3px 0px 2px; float: left;
+}
+.tsq_wg .ly_tsq_wg li a {
+	padding: 4px 0px 0px; width: 63px; height: 50px; text-align: center; color: rgb(109, 109, 111); letter-spacing: -1px; font-size: 11px; text-decoration: none !important; display: block;
+}
+.tsq_wg .ly_tsq_wg li a:hover {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -174px -793px;
+}
+.tsq_wg .ly_tsq_wg li a:focus {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -174px -793px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; margin: 0px auto -1px; width: 35px; height: 31px; overflow: hidden; display: block;
+}
+.tsq_wg .ly_tsq_wg li a .wgi1 {
+	background-position: -242px -793px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi2 {
+	background-position: -282px -793px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi3 {
+	background-position: -322px -793px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi4 {
+	background-position: -362px -793px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi5 {
+	background-position: -242px -829px; height: 29px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi6 {
+	background-position: -282px -829px; height: 29px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi7 {
+	background-position: -322px -829px; height: 29px;
+}
+.tsq_wg .ly_tsq_wg li a .wgi8 {
+	background-position: -362px -829px; height: 29px;
+}
+.tsq_wg a.tsq_wg_close {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -360px -449px; top: 3px; width: 25px; height: 25px; right: 3px; text-indent: -9999px; overflow: hidden; position: absolute;
+}
+.timesquare_pg {
+	right: 12px;
+}
+.tc_temp1 {
+	background-position: 0px 0px; margin: 11px 0px 0px 11px; width: 577px; height: 156px; overflow: hidden; position: relative; background-repeat: no-repeat;
+}
+.tc_temp1 .tct_a {
+	top: 20px; width: 214px; height: 120px; right: 52px; display: block; position: absolute; z-index: 3;
+}
+.text.tc_temp1 .tct_a {
+	right: 40px;
+}
+.tc_temp1 .tct_m {
+	vertical-align: top;
+}
+.tc_temp1 .tct_play {
+	background: url("http://img.naver.net/static/www/2014/temp/icon_play.png") no-repeat; margin: -21px 0px 0px -21px; left: 50%; top: 50%; width: 42px; height: 42px; text-indent: -9999px; overflow: hidden; white-space: nowrap; position: absolute;
+}
+.tc_temp1 .tct_mask {
+	left: 0px; width: 100%; height: 27px; bottom: 0px; position: absolute; opacity: 0.5; background-color: rgb(0, 0, 0);
+}
+.tc_temp1 .tct_t {
+	padding: 8px 9px 0px; left: 0px; width: 196px; height: 21px; bottom: 0px; color: rgb(255, 255, 255); line-height: 18px; letter-spacing: -1px; overflow: hidden; font-size: 12px; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis;
+}
+.tc_temp1 .tct_a:hover .tct_t {
+	text-decoration: underline;
+}
+.tc_temp1 .tct_line {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 575px; height: 154px; position: absolute; z-index: 1; opacity: 0.03;
+}
+.tc_temp1 .tct_lnk {
+	left: 0px; top: 0px; width: 577px; height: 156px; text-indent: -9999px; overflow: hidden; white-space: nowrap; position: absolute; z-index: 2; opacity: 0; background-color: rgb(51, 204, 255);
+}
+.tc_temp1 .tct_txt {
+	left: 28px; bottom: 18px; position: absolute; z-index: 3;
+}
+.tc_temp1 .tct_txt li {
+	margin-top: 5px;
+}
+.tc_temp1 .tct_txt a {
+	width: 270px; color: rgb(255, 255, 255); line-height: 18px; letter-spacing: -1px; overflow: hidden; font-size: 12px; display: block; white-space: nowrap; position: relative; -ms-text-overflow: ellipsis; opacity: 0.7;
+}
+.light.tc_temp1 .tct_txt a {
+	color: rgb(47, 55, 67); opacity: 0.85;
+}
+.tc_temp1 .tct_tmb {
+	top: 30px; right: 20px; position: absolute; z-index: 3;
+}
+.tc_temp1 .tct_tmb .tctt_item {
+	margin-left: 10px; float: left; display: inline;
+}
+.tc_temp1 .tct_tmb .tctt_a {
+	width: 124px; color: rgb(255, 255, 255); display: block;
+}
+.tc_temp1 .tct_tmb .tctt_mw {
+	margin: 0px 0px 10px; display: block; position: relative;
+}
+.tc_temp1 .tct_tmb .tctt_m {
+	vertical-align: top;
+}
+.tc_temp1 .tct_tmb .tctt_mov {
+	background: url("http://img.naver.net/static/www/2014/temp/icon_play_small.png") no-repeat; left: 6px; width: 19px; height: 19px; bottom: 6px; text-indent: -9999px; overflow: hidden; white-space: nowrap; position: absolute;
+}
+.tc_temp1 .tct_tmb .tctt_t {
+	color: rgb(255, 255, 255); line-height: 14px; letter-spacing: -1px; font-size: 12px; display: block; opacity: 0.7;
+}
+.light.tc_temp1 .tct_tmb .tctt_a {
+	color: rgb(47, 55, 67);
+}
+.light.tc_temp1 .tct_tmb .tctt_t {
+	color: rgb(47, 55, 67); opacity: 0.85;
+}
+.tc_lst .tc_temp1 a:visited {
+	color: rgb(255, 255, 255) !important;
+}
+.tc_lst .tc_temp1 a:visited * {
+	color: rgb(255, 255, 255) !important;
+}
+.tc_lst .light.tc_temp1 a:visited {
+	color: rgb(47, 55, 67) !important;
+}
+.tc_lst .light.tc_temp1 a:visited * {
+	color: rgb(47, 55, 67) !important;
+}
+.tc_lst .light.tc_temp1 .tct_a:visited {
+	color: rgb(255, 255, 255) !important;
+}
+.tc_lst .light.tc_temp1 .tct_a:visited * {
+	color: rgb(255, 255, 255) !important;
+}
+.cast3 {
+	width: 634px; float: left; position: relative;
+}
+.cast3 .cpg {
+	bottom: 17px;
+}
+.cast3 .s_cate {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat 0px -268px; width: 635px; height: 46px; overflow: hidden; margin-left: -1px; position: relative; -ms-zoom: 1;
+}
+.cast3 .s_cate span {
+	float: left;
+}
+.cast3 .s_cate span .ir {
+	line-height: 999px; vertical-align: top; float: none;
+}
+.s_cate span a {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat 0px -273px; margin: 0px 1px; width: 50px; height: 45px; font-size: 12px; vertical-align: top; display: block; position: relative;
+}
+.s_cate span a.on {
+	margin: 0px; width: 52px; height: 46px;
+}
+.s_cate span.tcc_lif a {
+	background-position: -1px -316px;
+}
+.s_cate span.tcc_occ a {
+	background-position: -517px -316px; width: 56px;
+}
+.s_cate span.tcc_spo a {
+	background-position: -53px -316px;
+}
+.s_cate span.tcc_aut a {
+	background-position: -105px -316px;
+}
+.s_cate span.tcc_tvc a {
+	background-position: -157px -316px; width: 56px;
+}
+.s_cate span.tcc_web a {
+	background-position: -215px -316px; width: 44px;
+}
+.s_cate span.tcc_gam a {
+	background-position: -261px -316px; width: 44px;
+}
+.s_cate span.tcc_muc a {
+	background-position: -307px -316px; width: 44px;
+}
+.s_cate span.tcc_mov a {
+	background-position: -353px -316px; width: 44px;
+}
+.s_cate span.tcc_bok a {
+	background-position: -399px -316px;
+}
+.s_cate span.tcc_ncc a {
+	background-position: -451px -316px; width: 64px;
+}
+.s_cate span.tcc_pub a {
+	background-position: -575px -316px; width: 59px;
+}
+.s_cate span.tcc_lif .on {
+	background-position: 0px -368px;
+}
+.s_cate span.tcc_occ .on {
+	background-position: -516px -368px; width: 58px;
+}
+.s_cate span.tcc_spo .on {
+	background-position: -52px -368px;
+}
+.s_cate span.tcc_aut .on {
+	background-position: -104px -368px;
+}
+.s_cate span.tcc_tvc .on {
+	background-position: -156px -368px; width: 58px;
+}
+.s_cate span.tcc_web .on {
+	background-position: -214px -368px; width: 46px;
+}
+.s_cate span.tcc_gam .on {
+	background-position: -260px -368px; width: 46px;
+}
+.s_cate span.tcc_muc .on {
+	background-position: -306px -368px; width: 46px;
+}
+.s_cate span.tcc_mov .on {
+	background-position: -352px -368px; width: 46px;
+}
+.s_cate span.tcc_bok .on {
+	background-position: -398px -368px;
+}
+.s_cate span.tcc_ncc .on {
+	background-position: -450px -368px; width: 66px;
+}
+.s_cate span.tcc_pub .on {
+	background-position: -574px -368px; width: 61px;
+}
+.cast3 .flick-view {
+	height: 738px; overflow: hidden; border-right-color: rgb(214, 214, 214); border-right-width: 1px; border-right-style: solid;
+}
+.cast3 .s_article {
+	height: 738px; position: relative;
+}
+.cast3 .spe_bn {
+	margin: -15px 0px 0px 11px; width: 605px; overflow: hidden; display: block;
+}
+.cast3 .spe_bn img {
+	vertical-align: top;
+}
+.tc_lst_wrap {
+	padding: 15px 0px 0px 17px;
+}
+.tc_lst {
+	width: 599px; line-height: 18px; -ms-zoom: 1;
+}
+.tc_lst::after {
+	clear: both; display: block; content: "";
+}
+.tc_lst li {
+	margin: 11px 0px 0px 11px; height: 156px; float: left; display: inline;
+}
+.tc_lst li a {
+	cursor: pointer;
+}
+.tc_lst li .thumb {
+	width: 185px; height: 103px; overflow: hidden; display: block; position: relative;
+}
+.tc_lst li .thumb .mask {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 183px; height: 101px; position: absolute; opacity: 0.08;
+}
+.tc_lst li .thumb .sprh_live {
+	left: 7px; top: 7px; position: absolute;
+}
+.tc_lst li .thumb .sprh_playlist {
+	left: 7px; top: 7px; position: absolute;
+}
+.tc_lst li .thumb .sprh_musician {
+	left: 7px; top: 7px; position: absolute;
+}
+.tc_lst li .thumb .sprh_live2 {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst li .thumb .sprh_playlist2 {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst li .thumb .sprh_musician2 {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst li .thumb .sprh_webdrama {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst .sub a {
+	display: block; position: relative;
+}
+.tc_lst .sub a:hover {
+	color: rgb(51, 153, 0);
+}
+.tc_lst .sub .flex {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(235, 235, 235) rgb(235, 235, 235); padding: 9px 10px 11px; border-image: none; width: 163px; height: 32px; display: block; background-color: rgb(255, 255, 255);
+}
+.tc_lst .sub .flex .t {
+	margin: 1px 0px 0px; letter-spacing: -1px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tc_lst .sub .flex .s {
+	color: rgb(136, 136, 136); letter-spacing: -1px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tc_lst .sub a:hover .flex .s {
+	color: rgb(51, 153, 0);
+}
+.tc_lst .only_title a {
+	display: block; position: relative;
+}
+.tc_lst .only_title a:hover {
+	color: rgb(51, 153, 0);
+}
+.tc_lst .only_title .flex {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(235, 235, 235) rgb(235, 235, 235); padding: 9px 10px 11px; border-image: none; width: 163px; height: 32px; display: block; background-color: rgb(255, 255, 255);
+}
+.tc_lst .only_title .flex .t {
+	height: 34px; letter-spacing: -1px; overflow: hidden; margin-top: 0px; display: block;
+}
+.tc_lst .copy .copy_a {
+	height: 131px; display: block;
+}
+.tc_lst .copy .copy_a .t {
+	padding: 10px 10px 0px; width: 163px; letter-spacing: -1px; overflow: hidden; font-weight: bold; border-right-color: rgb(235, 235, 235); border-left-color: rgb(235, 235, 235); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; background-color: rgb(255, 255, 255);
+}
+.tc_lst .copy .s {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(235, 235, 235) rgb(235, 235, 235); padding: 0px 10px 6px; border-image: none; width: 163px; height: 18px; color: rgb(136, 136, 136); letter-spacing: -1px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; background-color: rgb(255, 255, 255);
+}
+.tc_lst .copy .s a {
+	color: rgb(136, 136, 136);
+}
+.tc_lst .copy .s a:hover {
+	color: rgb(51, 153, 0);
+}
+.tc_lst .copy .s .bar {
+	color: rgb(211, 211, 211); margin-right: 1px;
+}
+.tc_lst .type_text_b {
+	height: 323px; background-color: rgb(247, 247, 247);
+}
+.tc_lst .type_text_b_re {
+	margin: 11px 11px 0px 0px; height: 323px; float: right;
+}
+.tc_lst .type_text_b .thumb {
+	height: 167px;
+}
+.tc_lst .type_text_b .thumb .mask {
+	height: 165px;
+}
+.tc_lst .txt {
+	width: 185px; height: 156px; background-color: rgb(247, 247, 247);
+}
+.tc_lst .txt .t {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(228, 228, 228) rgb(228, 228, 228) currentColor; padding: 13px 16px 2px 10px; border-image: none; height: 46px; line-height: 23px; letter-spacing: -1px; overflow: hidden; font-size: 1.34em; display: block;
+}
+.tc_lst .type_text_b .txt .t {
+	padding-top: 14px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.tc_lst .txt .c {
+	border-width: 0px 1px; border-style: none solid; border-color: currentColor rgb(228, 228, 228); margin: 0px; padding: 0px 16px 11px 10px; border-image: none; color: rgb(136, 136, 136); overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tc_lst .txt .c a {
+	color: rgb(136, 136, 136);
+}
+.tc_lst .txt .e {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(228, 228, 228) rgb(228, 228, 228); padding: 0px 16px 7px 10px; border-image: none; height: 57px; line-height: 19px; overflow: hidden; display: block;
+}
+.tc_lst .txt .e a {
+	height: 57px; color: rgb(136, 136, 136); letter-spacing: -1px; overflow: hidden; display: block;
+}
+.tc_lst .txt a:hover {
+	color: rgb(51, 153, 0); text-decoration: underline !important;
+}
+.tc_lst .txt .t a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+.tc_lst .txt .c a:visited {
+	color: rgb(136, 136, 136) !important;
+}
+.tc_lst .txt .e a:visited {
+	color: rgb(136, 136, 136) !important;
+}
+.tc_lst .type_lst {
+	border: 1px solid rgb(235, 235, 235); border-image: none; width: 379px; height: 154px; line-height: 18px; background-color: rgb(247, 247, 247);
+}
+.tc_lst .type_lst h4 {
+	margin: 12px 0px 0px 13px; letter-spacing: -1px;
+}
+.tc_lst .type_lst h4 a {
+	color: rgb(47, 55, 67) !important;
+}
+.tc_lst .type_lst h4 span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -180px -443px; margin: -2px 0px 0px 3px; width: 5px; height: 9px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.tc_lst .type_lst .lst {
+	padding: 5px 25px 13px 15px;
+}
+.tc_lst .type_lst .lst_item {
+	margin: 4px 0px 0px; height: auto; overflow: hidden; float: none; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tc_lst .type_lst .lst_item .n {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; margin: -2px 5px 0px 0px; width: 7px; height: 11px; line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.tc_lst .type_lst .lst_item .n1 {
+	background-position: -190px -443px;
+}
+.tc_lst .type_lst .lst_item .n2 {
+	background-position: -202px -443px;
+}
+.tc_lst .type_lst .lst_item .n3 {
+	background-position: -214px -443px;
+}
+.tc_lst .type_lst .lst_item .n4 {
+	background-position: -226px -443px;
+}
+.tc_lst .type_lst .lst_item .n5 {
+	background-position: -238px -443px;
+}
+.tc_lst .type_a {
+	height: 323px; margin-bottom: -1px;
+}
+.tc_lst .type_a_re {
+	margin: 11px 11px 0px 0px; float: right;
+}
+.tc_lst .type_a a {
+	width: 381px; height: 321px; overflow: hidden; display: block; position: relative;
+}
+.tc_lst .type_a .thumb {
+	width: auto; height: auto; overflow: visible;
+}
+.tc_lst .type_a .thumb .mask {
+	width: 379px; height: 321px;
+}
+.tc_lst .type_a .thumb .mask2 {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat -195px -76px; left: 0px; width: 381px; height: 116px; bottom: 0px; position: absolute;
+}
+.tc_lst .type_a .flex {
+	background: none; padding: 9px 0px; border: 0px currentColor; border-image: none; left: 0px; width: 100%; height: auto; bottom: 1px; position: absolute;
+}
+.tc_lst .type_a .flex .t {
+	padding: 0px 35px 0px 16px; color: rgb(255, 255, 255) !important; line-height: 25px; letter-spacing: -1px; font-size: 1.5em; display: block;
+}
+.tc_lst .type_a a:hover .flex .t {
+	text-decoration: underline;
+}
+.tc_lst .type_b {
+	height: 323px; margin-bottom: -1px; float: left;
+}
+.tc_lst .type_b_re {
+	margin: 11px 11px 0px 0px; float: right;
+}
+.tc_lst .type_b a {
+	width: 185px; height: 323px; overflow: hidden; display: block; position: relative;
+}
+.tc_lst .type_b .thumb {
+	width: auto; height: auto; overflow: visible;
+}
+.tc_lst .type_b .thumb .mask {
+	width: 183px; height: 321px;
+}
+.tc_lst .type_b .thumb .mask2 {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat 0px -56px; left: 0px; width: 185px; height: 136px; bottom: 0px; position: absolute;
+}
+.tc_lst .type_a .c {
+	left: 20px; top: 16px; position: absolute;
+}
+.tc_lst .type_b .c {
+	left: 20px; top: 16px; position: absolute;
+}
+.tc_lst .type_b .flex {
+	background: none; padding: 9px 0px; border: 0px currentColor; border-image: none; left: 0px; width: 100%; height: auto; bottom: 1px; position: absolute;
+}
+.tc_lst .type_b .flex .t {
+	padding: 0px 15px 0px 16px; color: rgb(255, 255, 255) !important; line-height: 25px; letter-spacing: -1px; font-size: 1.5em; display: block;
+}
+.tc_lst .type_b a:hover .flex .t {
+	text-decoration: underline;
+}
+.tc_lst .sticker {
+	left: 7px; top: 7px; position: absolute;
+}
+.tc_lst .type_a .sticker {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst .type_b .sticker {
+	left: 16px; top: 15px; position: absolute;
+}
+.tc_lst a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+.tc_lst a:visited * {
+	color: rgb(110, 73, 135) !important;
+}
+.opc_w {
+	padding: 25px 0px 0px; position: relative;
+}
+.opg {
+	top: 25px; width: 31px; height: 16px; right: 28px; position: absolute; z-index: 20;
+}
+.opg a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -281px -630px; left: 0px; top: 0px; width: 16px; height: 16px; color: transparent; line-height: 0; overflow: hidden; font-size: 0px; position: absolute;
+}
+.opg a.next {
+	background-position: -302px -630px; left: auto; right: 0px;
+}
+.opc_cate {
+	margin: 0px 28px; padding: 0px 0px 8px; line-height: 18px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 10;
+}
+.opc_cate::after {
+	clear: both; display: block; content: "";
+}
+.opc_cate li {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -358px; padding-left: 9px; margin-left: 9px; float: left; display: inline; position: relative;
+}
+.opc_cate li:first-child {
+	background: none; margin: 0px; padding: 0px;
+}
+.opc_cate a {
+	letter-spacing: -1px;
+}
+.opc_cate .on {
+	font-weight: bold;
+}
+.opc_cate .bar {
+	margin: 0px 2px; color: rgb(226, 226, 227); vertical-align: middle;
+}
+.opc_swipe {
+	padding: 0px 29px 0px 28px;
+}
+.opc {
+	padding: 14px 0px 0px; line-height: 18px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.opc_tit {
+	margin: 0px 0px 6px; letter-spacing: -1px;
+}
+.opc_origin {
+	top: 13px; right: 0px; letter-spacing: -1px; position: absolute; z-index: 5;
+}
+.opc_origin a {
+	color: rgb(136, 136, 136);
+}
+.opc_origin a:hover {
+	color: rgb(51, 153, 0);
+}
+.opc_origin a.rd {
+	color: rgb(136, 136, 136); text-decoration: none;
+}
+.opc_origin a.del {
+	color: rgb(136, 136, 136); text-decoration: none;
+}
+.opc_origin a.rd span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -92px -737px; width: 8px; height: 11px; line-height: 999px; overflow: hidden; margin-top: -3px; vertical-align: middle; display: inline-block;
+}
+.opc_origin a.del span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -92px -737px; width: 8px; height: 11px; line-height: 999px; overflow: hidden; margin-top: -3px; vertical-align: middle; display: inline-block;
+}
+.opc_origin a.del span {
+	background-position: -105px -737px;
+}
+.opc_origin em {
+	color: rgb(136, 136, 136); letter-spacing: 0px; font-family: "Tahoma"; font-size: 0.92em; margin-left: 2px;
+}
+.opc_origin .bar {
+	margin: 0px 4px 0px 2px; color: rgb(226, 226, 227);
+}
+.opc_type_th {
+	-ms-zoom: 1;
+}
+.opc_type_th::after {
+	clear: both; display: block; content: "";
+}
+.opc_type_th .th {
+	padding: 0px 0px 11px; margin-right: 10px; float: left;
+}
+.opc_type_th .th a {
+	width: 138px; overflow: hidden; display: block; position: relative; cursor: pointer;
+}
+.opc_type_th .thumb {
+	margin: 0px 0px 6px; display: block; position: relative;
+}
+.opc_type_th .mask {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 136px; height: 81px; position: absolute; opacity: 0.06;
+}
+.opc_type_th .t {
+	width: 138px; line-height: 18px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.opc_type_th ul {
+	overflow: hidden; -ms-zoom: 1;
+}
+.opc_type_th ul li {
+	padding: 0px 0px 5px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.opc_type_th ul li a {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 0px -173px; padding: 0px 0px 0px 8px;
+}
+.opc_type_lst {
+	width: 590px; margin-left: -8px; -ms-zoom: 1;
+}
+.opc_type_lst::after {
+	clear: both; display: block; content: "";
+}
+.opc_type_lst li {
+	padding: 0px 0px 11px; width: 138px; margin-left: 8px; float: left; display: inline;
+}
+.opc_type_lst a {
+	width: 138px; letter-spacing: -1px; overflow: hidden; display: block; position: relative; cursor: pointer;
+}
+.opc_type_lst .thumb {
+	margin: 0px 0px 6px; display: block; position: relative;
+}
+.opc_type_lst .mask {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 136px; height: 81px; position: absolute; opacity: 0.06;
+}
+.opc_type_lst .t {
+	line-height: 18px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.opc_w .ly_subs {
+	background: rgb(255, 255, 255); padding: 18px 20px 15px; border: 1px solid rgb(116, 120, 126); border-image: none; top: 18px; width: 242px; text-align: center; right: 0px; line-height: 19px; position: absolute; z-index: 5;
+}
+.opc_w .opc_cate .ly_subs {
+	width: 222px;
+}
+.opc_w .ly_subs_del {
+	width: 194px;
+}
+.opc_w .ly_subs .subs_title {
+	margin: 0px 0px 4px; letter-spacing: 0px;
+}
+.opc_w .ly_subs .err {
+	font-weight: bold;
+}
+.opc_w .ly_subs .subs_title strong {
+	color: rgb(28, 147, 0); overflow: hidden; vertical-align: top; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 120px;
+}
+.opc_w .ly_subs .subs_d {
+	color: rgb(107, 109, 112); letter-spacing: -1px; font-size: 0.92em;
+}
+.opc_w .ly_subs .subs_act {
+	margin: 8px 0px 0px;
+}
+.opc_w .ly_subs a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; margin: 0px 3px; height: 23px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.opc_w .ly_subs a.btn_my {
+	background-position: -130px -323px; width: 104px;
+}
+.opc_w .ly_subs a.btn_me {
+	background-position: -130px -351px; width: 104px;
+}
+.opc_w .ly_subs a.btn_subs {
+	background-position: -88px -995px; width: 104px;
+}
+.opc_w .ly_subs a.btn_check {
+	background-position: -243px -36px; margin: 1px 2px 0px; width: 39px; height: 21px;
+}
+.opc_w .ly_subs a.btn_cancel {
+	background-position: -286px -36px; margin: 1px 2px 0px; width: 39px; height: 21px;
+}
+.opc_w .ly_subs a.btn_close {
+	background-position: -239px -323px; top: 2px; right: 1px; position: absolute;
+}
+.opc_w .ly_oc {
+	background: rgb(255, 255, 255); padding: 10px 20px 10px 10px; border: 1px solid rgb(116, 120, 126); border-image: none; width: 97px; height: 25px; text-align: center; right: -1px; bottom: -1px; line-height: 15px; letter-spacing: -1px; font-size: 0.92em; position: absolute; z-index: 10;
+}
+.opc_w .ly_oc p {
+	color: rgb(107, 109, 112);
+}
+.opc_w .ly_oc a.close {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -239px -351px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+.opc_w .ly_oc .arrow {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -239px -351px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+.opc_w .ly_oc a.close {
+	top: 0px; width: 20px; height: 19px; right: 0px;
+}
+.opc_w .ly_oc2 {
+	top: 17px; width: 107px; height: 25px; right: 0px; bottom: auto;
+}
+.opc_w .ly_oc2 .arrow {
+	left: 42px;
+}
+.opc_w .opc_origin .ly_oc2 {
+	top: 18px;
+}
+.opc_w .ly_oc3 {
+	top: 22px; width: 113px; height: 56px; right: 0px; bottom: auto;
+}
+.opc_w .ly_oc3 .arrow {
+	left: 62px;
+}
+.opc_alert {
+	padding: 172px 0px 0px; text-align: center; line-height: 22px;
+}
+.opc_alert .ic_alert {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -276px -899px; margin: 0px auto 32px; width: 106px; height: 94px; line-height: 999px; overflow: hidden; vertical-align: top; display: block;
+}
+.opc_alert .oa1 {
+	margin: 0px 0px 13px; color: rgb(67, 76, 83); font-weight: bold;
+}
+.opc_alert .oa3 {
+	color: rgb(67, 76, 83); font-weight: bold;
+}
+.opc_alert .oa2 {
+	color: rgb(136, 136, 136);
+}
+.opc_subs {
+	height: 106px; text-align: center; padding-top: 36px;
+}
+.opc_subs a {
+	color: rgb(165, 165, 165); display: inline-block;
+}
+.opc_subs .ic_subs {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -387px -899px; margin: 0px 0px 11px; width: 26px; height: 23px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.opc_subs2 {
+	height: 111px; padding-top: 31px;
+}
+.opc_subs2 .ic_subs {
+	margin: 0px 0px 15px;
+}
+.area_book {
+	margin: 22px 0px 0px 11px; padding: 0px 0px 9px 104px; line-height: 18px; border-bottom-color: rgb(240, 240, 240); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.area_book h4 {
+	left: 0px; top: 0px; position: absolute;
+}
+.area_book h4.bktb {
+	top: 43px;
+}
+.area_book h4 a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat; width: 89px; height: 43px; line-height: 999px; overflow: hidden; vertical-align: top; display: block;
+}
+.area_book h4.bkta a {
+	background-position: -88px -899px;
+}
+.area_book h4.bkta a.on {
+	background-position: -182px -899px;
+}
+.area_book h4.bktb a {
+	background-position: -182px -947px;
+}
+.area_book h4.bktb a.on {
+	background-position: -88px -947px;
+}
+.area_book .copy {
+	left: 1px; top: 82px; line-height: 17px; letter-spacing: -1px; font-size: 0.92em; font-weight: normal; position: absolute;
+}
+.area_book .copy span {
+	width: 89px; color: rgb(160, 160, 160); overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.area_book .copy a {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 100% -401px; color: rgb(160, 160, 160); padding-right: 7px; margin-top: 1px; display: inline-block;
+}
+.area_book .lst_book {
+	
+}
+.area_book .lst_book::after {
+	clear: both; display: block; content: "";
+}
+.area_book .lst_book li {
+	margin-left: 11px; float: left; display: inline;
+}
+.area_book .lst_book a {
+	width: 85px; overflow: hidden; display: block; cursor: pointer;
+}
+.area_book .lst_book .thumb {
+	margin: 0px 0px 6px; display: block; position: relative;
+}
+.area_book .lst_book .mask {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 76px; height: 109px; position: absolute; z-index: 1; opacity: 0.1;
+}
+.area_book .lst_book .rank {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140807.png") no-repeat; left: 0px; top: 0px; width: 33px; height: 33px; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute; z-index: 2;
+}
+.area_book .lst_book .rank1 {
+	background-position: 0px 0px;
+}
+.area_book .lst_book .rank2 {
+	background-position: -38px 0px;
+}
+.area_book .lst_book .rank3 {
+	background-position: -76px 0px;
+}
+.area_book .lst_book .rank4 {
+	background-position: -114px 0px;
+}
+.area_book .lst_book .rank5 {
+	background-position: -152px 0px;
+}
+.area_book .lst_book .tit {
+	letter-spacing: -1px; overflow: hidden; font-weight: normal; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.area_book .lst_book a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+.area_book .lst_book a:visited * {
+	color: rgb(110, 73, 135) !important;
+}
+.shopping_cast {
+	width: 304px; height: 784px; float: left;
+}
+.shopping_cast .shop_cast {
+	height: 784px;
+}
+.tc_bottom {
+	left: 17px; bottom: 17px; line-height: 18px; letter-spacing: -1px; font-size: 0.92em; position: absolute;
+}
+.tc_bottom a.tc_set {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -245px; padding: 0px 0px 0px 15px; margin-right: 8px; float: left; _display: inline;
+}
+.tc_bottom .go_svc {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -285px; padding: 0px 0px 0px 9px; float: left; _display: inline;
+}
+.tc_bottom .go_svc dt {
+	margin: 0px 4px 0px 0px; float: left; _display: inline;
+}
+.tc_bottom .go_svc dd {
+	width: 290px; float: left; white-space: nowrap;
+}
+.tc_bottom .go_svc dd a {
+	background: url("http://img.naver.net/static/www/2014/sp_vertical201406.png") no-repeat 0px -325px; padding: 0px 0px 0px 4px; color: rgb(136, 136, 136); vertical-align: middle; display: inline-block;
+}
+.cast_set {
+	background: rgb(249, 249, 249); padding: 21px 0px 0px 22px; border: 1px solid rgb(185, 185, 185); border-image: none; left: -1px; width: 611px; height: 217px; bottom: 46px; line-height: 18px; position: absolute; z-index: 2500;
+}
+.cast_set .cs_tit {
+	padding: 0px 0px 0px 5px; letter-spacing: -1px !important; margin-bottom: 18px;
+}
+.cast_set .cs_tit h2 {
+	color: rgb(0, 0, 0); display: inline;
+}
+.cast_set .cs_tit .bar {
+	background: rgb(209, 209, 209); margin: 0px 5px 0px 8px; width: 1px; height: 11px; overflow: hidden; vertical-align: -1px; display: inline-block;
+}
+.cast_set .cs_tit p {
+	color: rgb(136, 136, 136); display: inline;
+}
+.cast_set .cs_tit .cs_close {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat -860px -270px; top: 14px; width: 21px; height: 21px; right: 14px; text-indent: -9999px; overflow: hidden; position: absolute;
+}
+.cast_set .cs_act {
+	left: 28px; width: 577px; height: 40px; text-align: center; bottom: 0px; padding-top: 13px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid; position: absolute;
+}
+.cast_set .cs_act a {
+	width: 47px; height: 27px; overflow: hidden; display: inline-block; position: relative; cursor: pointer;
+}
+.cast_set .cs_act a span {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -149px -593px; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.cast_set .cs_act a:hover span {
+	background-position: -201px -593px;
+}
+.cast_set .cs_act a.cancel span {
+	background-position: -149px -625px;
+}
+.cast_set .cs_act a.cancel:hover span {
+	background-position: -201px -625px;
+}
+.cast_set_lst {
+	background: rgb(249, 249, 249); width: 590px;
+}
+.cast_set_lst::after {
+	clear: both; display: block; content: "";
+}
+.cast_set_lst li {
+	margin: 0px 0px 11px; width: 46px; text-align: center; float: left;
+}
+.cast_set_lst li label {
+	background: rgb(249, 249, 249); width: 46px; height: 31px; line-height: 14px; letter-spacing: -1px !important; overflow: hidden; font-size: 11px; display: block; position: relative; cursor: pointer;
+}
+.cast_set_lst li .cs {
+	background: url("http://img.naver.net/static/www/2014/sp_mn20140731.png") no-repeat; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.cast_set_lst .csl_tcc_lif .cs {
+	background-position: -640px -268px;
+}
+.cast_set_lst .csl_tcc_spo .cs {
+	background-position: -691px -268px;
+}
+.cast_set_lst .csl_tcc_aut .cs {
+	background-position: -744px -268px;
+}
+.cast_set_lst .csl_tcc_tvc .cs {
+	background-position: -640px -304px;
+}
+.cast_set_lst .csl_tcc_web .cs {
+	background-position: -699px -304px;
+}
+.cast_set_lst .csl_tcc_gam .cs {
+	background-position: -748px -304px;
+}
+.cast_set_lst .csl_tcc_muc .cs {
+	background-position: -640px -340px;
+}
+.cast_set_lst .csl_tcc_mov .cs {
+	background-position: -693px -340px;
+}
+.cast_set_lst .csl_tcc_bok .cs {
+	background-position: -746px -340px;
+}
+.cast_set_lst .csl_tcc_ncc .cs {
+	background-position: -640px -376px;
+}
+.cast_set_lst .csl_tcc_occ .cs {
+	background-position: -711px -376px;
+}
+.cast_set_lst .csl_tcc_pub .cs {
+	background-position: -766px -376px;
+}
+.cast_set_lst .csl_tcc_non .cs {
+	background-position: -791px -268px;
+}
+.cast_set_lst .csl_tcc_spo {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_spo label {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_muc {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_muc label {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_mov {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_mov label {
+	width: 48px;
+}
+.cast_set_lst .csl_tcc_aut {
+	width: 42px;
+}
+.cast_set_lst .csl_tcc_aut label {
+	width: 42px;
+}
+.cast_set_lst .csl_tcc_bok {
+	width: 42px;
+}
+.cast_set_lst .csl_tcc_bok label {
+	width: 42px;
+}
+.cast_set_lst .csl_tcc_tvc {
+	width: 54px;
+}
+.cast_set_lst .csl_tcc_tvc label {
+	width: 54px;
+}
+.cast_set_lst .csl_tcc_web {
+	width: 44px;
+}
+.cast_set_lst .csl_tcc_web label {
+	width: 44px;
+}
+.cast_set_lst .csl_tcc_ncc {
+	width: 66px;
+}
+.cast_set_lst .csl_tcc_ncc label {
+	width: 66px;
+}
+.cast_set_lst .csl_tcc_occ {
+	width: 50px;
+}
+.cast_set_lst .csl_tcc_occ label {
+	width: 50px;
+}
+.cast_set_lst .csl_tcc_pub {
+	width: 56px;
+}
+.cast_set_lst .csl_tcc_pub label {
+	width: 56px;
+}
+.cast_set_lst li .input_rd {
+	margin: 5px auto 0px; padding: 0px; width: 13px; height: 13px; display: block;
+}
+.column_bn {
+	margin: 17px 0px; width: 940px; height: 100px; overflow: hidden;
+}
+.lst_bn {
+	height: 100px; line-height: 16px; -ms-zoom: 1;
+}
+.lst_bn::after {
+	clear: both; display: block; content: "";
+}
+.lst_bn li {
+	padding: 8px 27px 0px 0px; width: 290px; height: 84px; float: left;
+}
+.lst_bn .img_style {
+	padding: 0px; width: 306px; height: 100px;
+}
+.lst_bn a {
+	display: block; cursor: pointer; -ms-zoom: 1;
+}
+.lst_bn a::after {
+	clear: both; display: block; content: "";
+}
+.lst_bn span {
+	display: block;
+}
+.lst_bn .thumb {
+	margin: 0px 16px 0px 0px; float: left; position: relative;
+}
+.lst_bn .mask {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 0px; top: 0px; width: 88px; height: 82px; position: absolute; opacity: 0.1;
+}
+.lst_bn .det {
+	padding: 5px 0px 0px; overflow: hidden; display: block; -ms-zoom: 1;
+}
+.lst_bn .cate {
+	margin: 0px 0px 3px; color: rgb(51, 153, 0); letter-spacing: -1px; font-size: 0.92em;
+}
+.lst_bn .tit {
+	margin: 0px 0px 9px; font-size: 1.17em; display: block;
+}
+.lst_bn .des {
+	color: rgb(136, 136, 136); letter-spacing: 0px;
+}
+.lst_bn a:hover .des {
+	color: rgb(51, 153, 0);
+}
+#footer {
+	letter-spacing: -1px; overflow: hidden; padding-bottom: 30px; clear: both; border-top-color: rgb(63, 63, 63); border-top-width: 2px; border-top-style: solid; position: relative;
+}
+#footer a {
+	color: rgb(107, 109, 112);
+}
+.notice a {
+	color: rgb(107, 109, 112);
+}
+.policy a {
+	color: rgb(107, 109, 112);
+}
+#footer a:hover {
+	color: rgb(51, 153, 0);
+}
+.notice dt {
+	float: left; white-space: nowrap; _display: inline;
+}
+.notice dd {
+	float: left; white-space: nowrap; _display: inline;
+}
+.policy {
+	float: left; white-space: nowrap; _display: inline;
+}
+.policy dt {
+	float: left; white-space: nowrap; _display: inline;
+}
+.policy dd {
+	float: left; white-space: nowrap; _display: inline;
+}
+address {
+	float: left; white-space: nowrap; _display: inline;
+}
+.notice {
+	height: 34px; overflow: hidden; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(250, 250, 250);
+}
+.notice dt {
+	margin: 10px 3px 0px 15px; width: 53px;
+}
+.notice dd {
+	line-height: 34px;
+}
+#footer .notice a:visited {
+	color: rgb(110, 73, 135);
+}
+.svc_all {
+	top: 10px; width: 77px; right: 223px; overflow: hidden; position: absolute;
+}
+.h_notice {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -129px -89px; height: 13px; overflow: hidden; font-weight: bold; display: block;
+}
+.h_site {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -129px -89px; height: 13px; overflow: hidden; font-weight: bold; display: block;
+}
+.h_notice {
+	background-position: -129px -89px; width: 40px;
+}
+.h_site {
+	background-position: -300px -100px; width: 77px;
+}
+.policy {
+	padding: 22px 0px 0px 84px; clear: both;
+}
+.policy dd {
+	background: url("http://img.naver.net/static/www/2014/sp_rgt20140731.png") no-repeat 7px -90px; color: rgb(132, 134, 137); padding-left: 14px;
+}
+.policy .f {
+	background: none; padding-left: 0px;
+}
+address {
+	padding: 22px 0px 0px 20px; color: rgb(107, 109, 112); letter-spacing: 0px; font-family: "verdana"; font-size: 11px; _padding-top: 21px;
+}
+address strong a:hover {
+	color: rgb(45, 180, 0) !important;
+}
+.gomobile {
+	padding-top: 46px; clear: both;
+}
+.stop_message_m {
+	padding: 13px 0px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid; background-color: rgb(243, 243, 243);
+}
+.stop_message_m span {
+	color: rgb(157, 157, 157); letter-spacing: -1px; font-size: 11px;
+}
+.stop_message_m .change_m {
+	margin: 13px auto 0px; padding: 0px 10px; border-radius: 2px; border: 1px solid rgb(218, 218, 218); border-image: none; height: 30px; color: rgb(51, 51, 51); line-height: 30px; letter-spacing: -1px; overflow: hidden; font-size: 14px; font-weight: bold; display: inline-block; background-color: rgb(250, 250, 250);
+}
+.stop_message {
+	background: url("http://img.naver.net/static/www/2014/stop_message2.png") no-repeat; margin: -9px auto 32px; width: 546px; height: 32px; text-align: left; color: rgb(119, 119, 119); line-height: 34px; padding-left: 35px; font-size: 11px;
+}
+.m #search form {
+	margin-bottom: 9px;
+}
+.m .search_link {
+	width: 372px;
+}
+.m .qu_txt {
+	width: 290px; height: 16px; overflow: hidden;
+}
+.m .search_link .page {
+	top: -4px; width: 51px; height: 20px;
+}
+.m .search_link .page a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -378px -730px; margin: 0px; padding: 0px; width: 26px; height: 20px; line-height: 999px; overflow: hidden; vertical-align: top;
+}
+.m .search_link .page a.next {
+	background-position: -409px -730px; left: auto; right: 0px;
+}
+.m #ad_branding_hide {
+	display: none !important;
+}
+.m .cpg {
+	left: auto; top: auto; width: 112px; height: 25px; text-align: center; right: 15px; line-height: 25px; font-family: "verdana"; font-size: 11px; font-weight: bold; position: absolute;
+}
+.m .cpg a {
+	background: url("http://img.naver.net/static/www/2014/sp_main20140818_v2.png") no-repeat -304px -730px; margin: 0px; padding: 0px; left: 0px; top: 0px; width: 32px; height: 25px; right: auto; bottom: auto; line-height: 999px; overflow: hidden; vertical-align: top; position: absolute;
+}
+.m .cpg a.next {
+	background-position: -341px -730px; left: auto; right: 0px; position: absolute;
+}
+.m .opc_w .opg {
+	top: 23px; width: 51px; height: 20px;
+}
+.m .opc_w .opg a {
+	background-position: -378px -730px; width: 26px; height: 20px;
+}
+.m .opc_w .opg a.next {
+	background-position: -409px -730px;
+}
+.m .cast2 .cast_cnt {
+	height: 268px;
+}
+.m .cast2 .cast2_article {
+	height: 212px;
+}
+.m .newss_lst {
+	height: 173px;
+}
+.m #time_square {
+	height: 161px;
+}
+.m .mimesquare_pg {
+	right: 12px;
+}
+.m .msq_wg {
+	top: 129px;
+}
+.m .msq_wg .ly_tsq_wg {
+	top: -129px; height: 147px;
+}
+.m .cast3 .flick-view {
+	height: 742px;
+}
+.m .cast3 .s_article {
+	height: 742px;
+}
+.m .shopping_cast {
+	height: 788px;
+}
+.m .shopping_cast .shop_cast {
+	height: 788px;
+}
+.m .cclist {
+	height: 314px;
+}
+.m .cclist_cont {
+	height: 287px;
+}
+.t input[type=image] {
+	-webkit-border-radius: 0; -webkit-appearance: none;
+}
+.t input[type=text] {
+	-webkit-border-radius: 0; -webkit-appearance: none;
+}
+.t input[type=submit] {
+	-webkit-border-radius: 0; -webkit-appearance: none;
+}
+.t input[type=password] {
+	-webkit-border-radius: 0; -webkit-appearance: none;
+}
+.t a:hover {
+	text-decoration: none !important;
+}
+.t .s_cate li a:hover {
+	background: none;
+}
+.t .nav_hm a:hover .nav_hm2_ly {
+	top: -2000px !important;
+}
+.t .nav_hm a:active .nav_hm2_ly {
+	top: -2000px !important;
+}
+.t .nav_hm a:focus .nav_hm2_ly {
+	top: -2000px !important;
+}

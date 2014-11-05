@@ -1,0 +1,114 @@
+body {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+menu {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+body {
+	position: relative; -ms-word-break: break-all;
+}
+body {
+	line-height: 15px; letter-spacing: -1px; font-family: "µ¸¿ò",Dotum,"±¼¸²",Gulim,AppleGothic,Sans-serif; font-size: 11px;
+}
+h2 {
+	line-height: 15px; letter-spacing: -1px; font-family: "µ¸¿ò",Dotum,"±¼¸²",Gulim,AppleGothic,Sans-serif; font-size: 11px;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+.blind {
+	left: 0px; top: 0px; width: 0px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; visibility: hidden; position: absolute;
+}
+#da_timeboard {
+	background: url("http://adcreative.naver.com/ad3/res/www/timeboard/img/bg_timeboard.png") no-repeat 0px 0px rgb(235, 237, 238); width: 635px; height: 100px; position: relative;
+}
+#da_timeboard::after {
+	clear: both; display: block; content: "";
+}
+* + html h2 {
+	top: 14px;
+}
+.ad {
+	width: 635px;
+}
+.ad a {
+	outline: 0px; display: block; position: relative;
+}
+.ad span {
+	background: url("http://adcreative.naver.com/ad3/res/www/timeboard/img/ln_timeboard.png"); left: 0px; top: 0px; width: 635px; height: 100px; display: block; position: absolute; _background: 0;
+}
+.ad a span {
+	cursor: pointer;
+}

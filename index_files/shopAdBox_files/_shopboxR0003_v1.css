@@ -1,0 +1,411 @@
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+body {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+h1 {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+h2 {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+h3 {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+h4 {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+input {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+button {
+	font-family: "µ¸¿ò",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif; font-size: 12px;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+iframe {
+	border: 0px currentColor; border-image: none;
+}
+li {
+	list-style: none;
+}
+em {
+	font-style: normal;
+}
+address {
+	font-style: normal;
+}
+label {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+a {
+	color: rgb(47, 55, 67); text-decoration: none;
+}
+a:hover {
+	color: rgb(51, 153, 0); text-decoration: underline;
+}
+hr {
+	display: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+.blind {
+	left: 0px; top: -1000em; overflow: hidden; display: block; position: absolute;
+}
+legend {
+	left: 0px; top: -1000em; overflow: hidden; display: block; position: absolute;
+}
+body {
+	letter-spacing: -1px;
+}
+.shop_wrap {
+	width: 304px; position: relative;
+}
+.sp {
+	background: url("http://img.naver.net/static/www/2014/shopping/sp_shop20140328.png") no-repeat; width: 0px; height: 0px; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block;
+}
+.sp_tit {
+	background-position: -277px 0px; width: 64px; height: 45px;
+}
+.sp_tab_gift {
+	background-position: -277px -50px; width: 56px; height: 46px;
+}
+.sp_tab_shopping {
+	background-position: -338px -50px; width: 56px; height: 46px;
+}
+.sp_tab_mens {
+	background-position: -399px -50px; width: 55px; height: 46px;
+}
+.on .sp_tab_gift {
+	background-position: -277px -101px;
+}
+.on .sp_tab_shopping {
+	background-position: -338px -101px;
+}
+.on .sp_tab_mens {
+	background-position: -399px -101px;
+}
+.sp_prev {
+	background-position: -354px 0px; width: 25px; height: 21px;
+}
+.sp_next {
+	background-position: -354px -25px; width: 25px; height: 21px;
+}
+.sp_arr {
+	background-position: -346px 0px; width: 3px; height: 5px;
+}
+.sp_sale {
+	background-position: -406px 0px; width: 35px; height: 16px;
+}
+.sp_new {
+	background-position: -406px -21px; width: 35px; height: 16px;
+}
+.sp_event {
+	background-position: -446px 0px; width: 35px; height: 16px;
+}
+.sp_exh {
+	background-position: -446px -21px; width: 35px; height: 16px;
+}
+.shop_header {
+	height: 45px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; position: relative; background-color: rgb(243, 243, 244);
+}
+.shop_tab {
+	top: 0px; right: 0px; overflow: hidden; padding-left: 1px; position: absolute;
+}
+.shop_tab li {
+	margin-left: -1px; float: left; position: relative;
+}
+.shop_tab .on {
+	z-index: 2;
+}
+.shop_t1 {
+	position: relative;
+}
+.shop_t2 {
+	position: relative;
+}
+.shop_t3 {
+	position: relative;
+}
+.shop_t2 {
+	padding: 30px 0px 0px;
+}
+.flick_prev {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140408.png") no-repeat -191px 0px; left: 0px; top: 50%; width: 43px; height: 57px; line-height: 999px; overflow: hidden; margin-top: 3px; vertical-align: top; position: absolute;
+}
+.flick_next {
+	background: url("http://img.naver.net/static/www/2014/sp_main_high20140408.png") no-repeat -239px 0px; top: 50%; width: 43px; height: 57px; right: 0px; line-height: 999px; overflow: hidden; margin-top: 3px; vertical-align: top; position: absolute;
+}
+.malllst {
+	margin: 0px 0px 0px 14px; padding: 16px 0px 2px; width: 275px; line-height: 20px; overflow: hidden; font-size: 0.92em; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.malllst dd {
+	white-space: nowrap;
+}
+.malllst dd a {
+	color: rgb(49, 54, 67);
+}
+.malllst dd a:hover {
+	color: rgb(51, 153, 0);
+}
+.malllst dd .ls0 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls1 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls2 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls3 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls4 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls5 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls6 {
+	width: 1px; height: 1px; color: rgb(255, 255, 255); line-height: 999px; overflow: hidden; vertical-align: middle; display: inline-block; background-color: rgb(57, 60, 65);
+}
+.malllst dd .ls0 {
+	margin: 0px;
+}
+.malllst dd .ls1 {
+	margin: 0px 1px;
+}
+.malllst dd .ls2 {
+	margin: 0px 2px;
+}
+.malllst dd .ls3 {
+	margin: 0px 3px;
+}
+.malllst dd .ls4 {
+	margin: 0px 4px;
+}
+.malllst dd .ls5 {
+	margin: 0px 5px;
+}
+.malllst dd .ls6 {
+	margin: 0px 6px;
+}
+.lst_gift {
+	padding: 21px 0px 0px; position: relative;
+}
+.giftlst_w {
+	background: url("http://img.naver.net/static/www/2014/shopping/sp_shop20140328.png") no-repeat 0px 100%; margin: 0px 0px 0px 20px; padding: 0px 40px; width: 186px; height: 344px;
+}
+.giftlst_u {
+	margin: 0px -25%; position: relative; -ms-zoom: 1;
+}
+.giftlst_u::after {
+	clear: both; display: block; content: "";
+}
+.giftlst_l {
+	width: 33%; float: left;
+}
+a.giftlst_a {
+	padding: 15px 0px 8px; height: 92px; text-align: center; color: rgb(103, 109, 118); line-height: 12px; font-size: 0.92em; display: block; white-space: normal; cursor: pointer; -ms-word-wrap: break-word;
+}
+a.giftlst_a:hover {
+	color: rgb(51, 153, 0);
+}
+a.giftlst_a:hover * {
+	color: rgb(51, 153, 0);
+}
+a.giftlst_a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+a.giftlst_a:visited * {
+	color: rgb(110, 73, 135) !important;
+}
+.giftlst_mw {
+	display: block; position: relative;
+}
+.giftlst_m {
+	vertical-align: top;
+}
+.giftlst_s {
+	margin: 0px auto; padding: 4px 0px; width: 90px; overflow: hidden; display: block;
+}
+.giftlst_s1 {
+	height: 12px; overflow: hidden; display: block;
+}
+.giftlst_s2 {
+	height: 12px; overflow: hidden; display: block;
+}
+.gtw {
+	margin: 0px 0px 0px 20px; width: 264px; overflow: hidden; border-top-color: rgb(241, 241, 241); border-top-width: 1px; border-top-style: solid; -ms-zoom: 1;
+}
+.gtw .gtbn {
+	width: 85px; height: 98px; margin-left: 10px; border-left-color: rgb(241, 241, 241); border-left-width: 1px; border-left-style: solid; float: right;
+}
+.gtw a.gt {
+	padding: 10px 0px; height: 78px; color: rgb(48, 55, 71); overflow: hidden; display: block; cursor: pointer; -ms-zoom: 1;
+}
+.gtw_r .gtbn {
+	border-width: 0px 1px 0px 0px; border-style: none solid none none; border-color: currentColor rgb(241, 241, 241) currentColor currentColor; margin: 0px 10px 0px 0px; border-image: none; float: left;
+}
+.gtw_r a.gt {
+	margin-right: 0px;
+}
+.gtw_r .gt_mw {
+	margin-right: 11px;
+}
+.bx_mall {
+	padding: 12px 0px 0px; width: 264px; margin-left: 20px; border-top-color: rgb(241, 241, 241); border-top-width: 1px; border-top-style: solid;
+}
+:first-child.bx_mall {
+	padding-top: 17px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.malltit_w {
+	margin: 0px 0px 10px; padding: 1px 0px; width: 264px; height: 15px; line-height: 18px; overflow: hidden; position: relative;
+}
+.malltit_w img {
+	vertical-align: top;
+}
+a.mall_go {
+	top: 1px; right: 0px; color: rgb(108, 109, 113); font-size: 0.92em; position: absolute;
+}
+a.mall_go .sp_arr {
+	margin: -1px 0px 0px 3px; vertical-align: middle;
+}
+a.mall_go:hover {
+	color: rgb(51, 153, 0);
+}
+.glst_w {
+	padding: 0px 40px; width: 186px;
+}
+.glst_u {
+	margin: 0px -25%; position: relative; -ms-zoom: 1;
+}
+.glst_u::after {
+	clear: both; display: block; content: "";
+}
+.glst_l {
+	width: 33%; float: left;
+}
+a.glst_a {
+	padding: 0px 0px 6px; height: 92px; text-align: center; color: rgb(103, 109, 118); line-height: 12px; font-size: 0.92em; display: block; white-space: normal; cursor: pointer; -ms-word-wrap: break-word;
+}
+a.glst_a:hover {
+	color: rgb(51, 153, 0);
+}
+a.glst_a:hover * {
+	color: rgb(51, 153, 0);
+}
+a.glst_a:visited {
+	color: rgb(110, 73, 135) !important;
+}
+a.glst_a:visited * {
+	color: rgb(110, 73, 135) !important;
+}
+.glst_mw {
+	display: block; position: relative;
+}
+.glst_m {
+	vertical-align: top;
+}
+.glst_s {
+	margin: 0px auto; padding: 4px 0px; width: 90px; overflow: hidden; display: block;
+}
+.glst_s1 {
+	height: 12px; overflow: hidden; display: block;
+}
+.glst_s2 {
+	height: 12px; overflow: hidden; display: block;
+}
+.bx_sale {
+	margin: 1px 0px -1px 20px; padding: 0px 0px 3px; width: 264px; white-space: nowrap; position: relative; background-color: rgb(255, 255, 255);
+}
+.bx_sale_p {
+	padding: 12px 0px 12px 9px; border: 1px solid rgb(241, 241, 241); border-image: none; width: 253px; height: 16px; background-color: rgb(250, 250, 250);
+}
+a.bx_sale_a {
+	height: 16px; color: rgb(103, 109, 118); line-height: 18px; overflow: hidden; font-size: 0.92em; display: block;
+}
+a.bx_sale_a:hover {
+	color: rgb(51, 153, 0);
+}
+.page {
+	top: 3px; right: 14px; color: rgb(179, 183, 188); line-height: 31px; letter-spacing: 0px; font-family: "Tahoma"; font-size: 10px; font-weight: bold; position: absolute;
+}
+.page em {
+	float: left;
+}
+.page a {
+	float: left;
+}
+.page em strong {
+	color: rgb(132, 134, 157);
+}
+.page a.prev {
+	padding: 5px 0px 5px 6px; height: 19px; cursor: pointer;
+}
+.page a.next {
+	padding: 5px 6px 5px 0px; height: 19px; margin-left: -1px; cursor: pointer;
+}
+.shop_t2 .page {
+	top: 15px;
+}

@@ -1,0 +1,390 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0035)http://my.naver.com/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<META http-equiv="X-UA-Compatible" content="IE=edge"> <!--  http://gitlab.uit.nhncorp.com/myarea/myarea/raw/master/src/css/myarea.css  --> 
+<LINK href="QDCRM5PV_files/myarea.140818.css" rel="stylesheet" type="text/css"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17344"></HEAD>			 
+<BODY>
+<DIV class="my_area">
+<DIV class="profile">
+<DIV class="user_area">
+<DIV class="user_info"><A class="user_thumbnail" onclick="clickcr(this, 'nmy.profile', '', '', event);My.movePage('http://me.naver.com/profile.nhn');return false;" 
+href="http://me.naver.com/profile.nhn" target="_parent"><SPAN 
+class="mask"></SPAN>					 <IMG width="49" height="49" id="profile_image" src="QDCRM5PV_files/my.png">					
+				</A>				 
+<DIV class="private"><SPAN class="user_name"><A onclick="clickcr(this, 'nmy.idname', '', '', event);My.movePage('http://me.naver.com/profile.nhn');return false;" 
+href="http://me.naver.com/profile.nhn" target="_parent"><STRONG 
+id="user_name"></STRONG>님</A></SPAN>					 <A class="link_myinfo" onclick="clickcr(this, 'nmy.modify', '', '', event);My.movePage('https://nid.naver.com/user2/help/myInfo.nhn?menu=home');return false;" 
+href="https://nid.naver.com/user2/help/myInfo.nhn?menu=home" 
+target="_parent">내정보</A>					 <A class="set_login_protect" onclick="clickcr(this, 'nmy.caution', '', '', event);My.movePage('https://nid.naver.com/user2/help/myInfo.nhn?m=viewSecurity&amp;menu=security');return false;" 
+href="https://nid.naver.com/user2/help/myInfo.nhn?m=viewSecurity&amp;menu=security" 
+target="_parent"><I class="blind">로그인 보호 설정</I></A>					 <SPAN 
+class="login_on"><I class="blind">로그인상태 유지</I></SPAN>					 <A class="btn_logout" 
+onclick="clickcr(this, 'nmy.logout', '', '', event);My.movePage('http://nid.naver.com/nidlogin.logout?returl=http://www.naver.com');return false;" 
+href="http://nid.naver.com/nidlogin.logout?returl=http://www.naver.com" target="_parent"><SPAN 
+class="btn_inr">로그아웃</SPAN></A>				 </DIV>
+<DIV class="my_service"><A class="link_me" onclick="clickcr(this, 'nmy.me', '', '', event);My.movePage('http://me.naver.com');return false;" 
+href="http://me.naver.com/" target="_parent"><I>네이버me</I></A><SPAN 
+class="bar"></SPAN><SPAN class="link_cover"><A class="link_mail" id="mail_count_profile" 
+onclick="clickcr(this, 'nmy.mailtit', '', '', event);My.movePage('http://mail.naver.com');return false;" 
+href="http://mail.naver.com/" target="_parent"><I>메일</I><SPAN 
+class="cnt">0</SPAN></A></SPAN><SPAN class="bar"></SPAN><SPAN 
+class="link_cover"><A class="link_note" id="note_count_profile" onclick="clickcr(this, 'nmy.note', '', '', event);My.movePage('http://note.naver.com');return false;" 
+href="http://note.naver.com/" target="_parent"><I>쪽지</I><SPAN 
+class="cnt">0</SPAN></A></SPAN><SPAN class="bar"></SPAN><A class="link_mysvc" 
+onclick="clickcr(this, 'nmy.mysvc', '', '', event);myCore.toggleMyService();return false;" 
+href="http://my.naver.com/?20141104140813#"><I>MY서비스</I><SPAN 
+class="arrow"><I>레이어 열림</I></SPAN></A>				 </DIV></DIV></DIV>
+<DIV class="service_tab">
+<DIV class="slide_cover" id="slide_cover"><!-- [D] 선택된 탭에 .selected 클래스 추가, 선택된 탭에 대체 텍스트 추가 -->
+				 <!-- [D] 마우스 오버스 .hover 클래스 추가-->				 
+<UL style="left: 0px;">
+  <LI onclick="clickcr(this, 'nmy.alert', '', '', event);myCore.toggleService('noti');return false;"><A 
+  class="tab_noti" href="http://www.naver.com/"><I>알림</I><SPAN class="b_cnt" id="noti_count" 
+  style="display: none;"><EM></EM></SPAN><SPAN class="blind">탭 
+  선택됨</SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.sst', '', '', event);myCore.toggleService('feed');return false;"><A 
+  class="tab_feed" href="http://www.naver.com/"><I>구독</I><SPAN class="b_cnt" id="feed_count" 
+  style="display: none;"><EM>N</EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.mail', '', '', event);myCore.toggleService('mail');return false;"><A 
+  class="tab_mail" href="http://www.naver.com/"><I>메일</I><SPAN class="b_cnt" id="mail_count" 
+  style="display: none;"><EM></EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.cafe', '', '', event);myCore.toggleService('cafe');return false;"><A 
+  class="tab_cafe" href="http://www.naver.com/"><I>카페</I></A></LI>
+  <LI onclick="clickcr(this, 'nmy.blog', '', '', event);myCore.toggleService('blog');return false;"><A 
+  class="tab_blog" href="http://www.naver.com/"><I>블로그</I></A></LI>
+  <LI onclick="clickcr(this, 'nmy.post', '', '', event);myCore.toggleService('post');return false;"><A 
+  class="tab_post" href="http://www.naver.com/"><I>포스트</I><SPAN class="b_cnt" 
+  id="post_count" style="display: none;"><EM></EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.ndrive', '', '', event);myCore.toggleService('ndrive');return false;"><A 
+  class="tab_ndrive" href="http://www.naver.com/"><I>N드라이브</I><SPAN class="b_cnt" 
+  id="ndrive_count" style="display: none;"><EM>N</EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.office', '', '', event);myCore.toggleService('office');return false;"><A 
+  class="tab_office" href="http://www.naver.com/"><I>오피스</I><SPAN class="b_cnt" 
+  id="office_count" style="display: none;"><EM>N</EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.calendar', '', '', event);myCore.toggleService('calendar');return false;"><A 
+  class="tab_calendar" href="http://www.naver.com/"><I>캘린더</I><SPAN class="b_cnt" 
+  id="calendar_count" style="display: none;"><EM></EM></SPAN></A></LI>
+  <LI onclick="clickcr(this, 'nmy.happybean', '', '', event);myCore.toggleService('happybean');return false;"><A 
+  class="tab_happybean" href="http://www.naver.com/"><I>해피빈</I><SPAN class="b_cnt" 
+  id="happybean_count" 
+style="display: none;"><EM></EM></SPAN></A></LI></UL></DIV><SPAN class="slide_btn"><A 
+class="btn_next" onclick="clickcr(this, 'nmy.next', '', '', event);myCore.slideServiceMenu();return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음판 보기</I></A>			 </SPAN>
+		 </DIV></DIV>
+<DIV class="swipe_box" style="display: none;"><BUTTON class="prev"><EM>이전 탭으로 
+이동</EM></BUTTON>		 <BUTTON class="next"><EM>다음 탭으로 이동</EM></BUTTON>	 </DIV>
+<DIV class="service" id="service_pannel" style="display: none;"><!-- [D] 플리킹 -->
+		 
+<DIV class="svc_noti svc_panel">
+<DIV class="svc_scroll">알림			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.alert', '', '', event);" 
+href="http://me.naver.com/box/noti.nhn" target="_parent"><SPAN 
+class="svc_ico"></SPAN>네이버me</A>				 <SPAN class="bar"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.alertset', '', '', event);" href="http://me.naver.com/index.nhn?openConfig=noti&amp;subMenuId=all" 
+target="_parent">알림 설정</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>1</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>				 </DIV></DIV>
+<DIV class="ly_alert">
+<P class="msg"><STRONG>알림을 모두 삭제하시겠습니까?</STRONG></P>
+<DIV class="btns"><BUTTON id="ly_alert_confirm">확인</BUTTON>					 <BUTTON 
+onclick="My.showNotiDeleteLayer('hide')">취소</BUTTON>				 </DIV><BUTTON class="btn_close" 
+onclick="My.showNotiDeleteLayer('hide')"><I>레이어 닫기</I></BUTTON>			 </DIV></DIV>
+<DIV class="svc_feed svc_panel">
+<DIV class="svc_scroll">구독			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.sst', '', '', event);" 
+href="http://me.naver.com/box/news.nhn" target="_parent"><SPAN 
+class="svc_ico"></SPAN>네이버me</A>				 <SPAN class="bar"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.sstset', '', '', event);" href="http://me.naver.com/index.nhn?openConfig=feed" 
+target="_parent">구독 설정</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>2</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_mail svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				메일
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.mail', '', '', event);My.movePage('http://mail.naver.com');return false;" 
+href="http://mail.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>메일</A>				 <SPAN class="bar"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.mailset', '', '', event);My.movePage('http://mail.naver.com/option/read');return false;" 
+href="http://mail.naver.com/option/read" target="_parent">새 메일 통수 설정</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>3</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_cafe svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				카페
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.cafe', '', '', event);My.movePage('http://section.cafe.naver.com/');return false;" 
+href="http://section.cafe.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>카페</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>4</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_blog svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				블로그
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.blog', '', '', event);My.movePage('http://section.blog.naver.com/');return false;" 
+href="http://section.blog.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>블로그</A>				 <SPAN class="arr"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.myblog', '', '', event);My.movePage('http://blog.naver.com/hanbitbooks');return false;" 
+href="http://blog.naver.com/hanbitbooks" target="_parent">내 블로그</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>5</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_post svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				포스트
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.post', '', '', event);My.movePage('http://post.naver.com/');return false;" 
+href="http://post.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>포스트</A>				 <SPAN class="arr"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.postprofile', '', '', event);My.movePage('http://post.naver.com/hanbitbooks');return false;" 
+href="http://post.naver.com/hanbitbooks" target="_parent">내 프로필</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>6</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_ndrive svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">N드라이브
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.ndrive', '', '', event);My.movePage('http://ndrive.naver.com/');return false;" 
+href="http://ndrive.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>N드라이브</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>7</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_office svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				오피스
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.office', '', '', event);My.movePage('http://office.naver.com/');return false;" 
+href="http://office.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>오피스</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>8</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_calendar svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				캘린더
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.calendar', '', '', event);My.movePage('https://calendar.naver.com/');return false;" 
+href="https://calendar.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>캘린더</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>9</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV>
+<DIV class="svc_happybean svc_panel">
+<DIV class="svc_scroll" style="-webkit-overflow-scrolling: touch;">				해피빈
+			 </DIV>
+<DIV class="svc_navigation"><A class="svc_link_strong" onclick="clickcr(this, 'nmy_fot.happybean', '', '', event);My.movePage('http://happybean.naver.com/');return false;" 
+href="http://happybean.naver.com/" target="_parent"><SPAN 
+class="svc_ico"></SPAN>해피빈</A>				 <SPAN class="arr"></SPAN>				 <A class="svc_link_weak" 
+onclick="clickcr(this, 'nmy_fot.hranking', '', '', event);My.movePage('http://happybean.naver.com/my/MyHappybeanMain.nhn');return false;" 
+href="http://happybean.naver.com/my/MyHappybeanMain.nhn" target="_parent">나의 나눔 
+랭킹</A>				 
+<DIV class="task_right"><SPAN class="cnt"><EM><I 
+class="blind">현재탭</I>10</EM><SPAN>/<I class="blind">전체 탭 갯수</I>10</SPAN></SPAN>
+					 <A title="이전" class="btn_prev" onclick="clickcr(this, 'nmy_fot.prev', '', '', event);myCore.moveServicePannel('prev');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>이전 탭 보기</I></A><A title="다음" 
+class="btn_next" onclick="clickcr(this, 'nmy_fot.next', '', '', event);myCore.moveServicePannel('next');return false;" 
+href="http://my.naver.com/?20141104140813#"><I>다음 탭 보기</I></A>
+				 </DIV></DIV></DIV></DIV>
+<DIV class="myservice" style="display: none;">
+<H3 class="ly_head">MY 서비스</H3>
+<DIV class="service_list">
+<UL>
+  <LI><A class="ico_cafe" onclick="clickcr(this, 'nmy_mys.cafe', '', '', event);My.movePage('http://section.cafe.naver.com');return false;" 
+  href="http://section.cafe.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">카페</SPAN></A></LI>
+  <LI><A class="ico_blog" onclick="clickcr(this, 'nmy_mys.blog', '', '', event);My.movePage('http://section.blog.naver.com');return false;" 
+  href="http://section.blog.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">블로그</SPAN></A></LI>
+  <LI><A class="ico_post" onclick="clickcr(this, 'nmy_mys.post', '', '', event);My.movePage('http://post.naver.com');return false;" 
+  href="http://post.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">포스트</SPAN></A></LI>
+  <LI><A class="ico_ndrive" onclick="clickcr(this, 'nmy_mys.ndrive', '', '', event);My.movePage('http://ndrive.naver.com');return false;" 
+  href="http://ndrive.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">N드라이브</SPAN></A></LI>
+  <LI><A class="ico_office" onclick="clickcr(this, 'nmy_mys.office', '', '', event);My.movePage('http://office.naver.com');return false;" 
+  href="http://office.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">오피스</SPAN></A></LI>
+  <LI><A class="ico_memo" onclick="My.movePage('http://memo.naver.com');return false;" 
+  href="http://memo.naver.com/" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">메모</SPAN></A></LI>
+  <LI><A class="ico_sms" onclick="My.movePage('http://webmsg.naver.com/v2/message/webmsg_main.php');return false;" 
+  href="http://webmsg.naver.com/v2/message/webmsg_main.php" 
+  target="_parent"><SPAN class="svc_icon"></SPAN><SPAN 
+  class="svc_name">문자메시지</SPAN></A></LI>
+  <LI><A class="ico_bookmark" onclick="clickcr(this, 'nmy_mys.bookmark', '', '', event);My.movePage('http://me.naver.com/tab/bookmark.nhn');return false;" 
+  href="http://me.naver.com/tab/bookmark.nhn" target="_parent"><SPAN class="svc_icon"></SPAN><SPAN 
+  class="svc_name">북마크</SPAN></A></LI>
+  <LI><A class="ico_nstore" onclick="clickcr(this, 'nmy_mys.nstore', '', '', event);My.movePage('http://nstore.naver.com/my/library/productList.nhn');return false;" 
+  href="http://nstore.naver.com/my/library/productList.nhn" 
+  target="_parent"><SPAN class="svc_icon"></SPAN><SPAN 
+  class="svc_name">N스토어</SPAN></A></LI>
+  <LI><A class="ico_music" onclick="clickcr(this, 'nmy_mys.mymusic', '', '', event);My.movePage('http://music.naver.com/myMusic/favorite.nhn');return false;" 
+  href="http://music.naver.com/myMusic/favorite.nhn" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">마이뮤직</SPAN></A></LI>
+  <LI><A class="ico_moneybook" onclick="clickcr(this, 'nmy_mys.moneybook', '', '', event);My.movePage('http://moneybook.naver.com/mybook/write.nhn');return false;" 
+  href="http://moneybook.naver.com/mybook/write.nhn" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">가계부</SPAN></A></LI>
+  <LI><A class="ico_finance" onclick="My.movePage('http://finance.naver.com/mystock/summary.nhn');return false;" 
+  href="http://finance.naver.com/mystock/summary.nhn" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">마이금융</SPAN></A></LI>
+  <LI><A class="ico_bill" onclick="clickcr(this, 'nmy_mys.mycash', '', '', event);My.movePage('https://bill.naver.com/pay/wallet/myInfo.nhn?m=coinInfo');return false;" 
+  href="https://bill.naver.com/pay/wallet/myInfo.nhn?m=coinInfo" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">마이캐쉬</SPAN><SPAN class="svc_info" 
+  id="cnt_myCash"></SPAN></A></LI>
+  <LI><A class="ico_mileage" onclick="clickcr(this, 'nmy_mys.mileage', '', '', event);" 
+  href="http://mileage.naver.com/customer/mypage/list" target="_parent"><SPAN 
+  class="svc_icon"></SPAN><SPAN class="svc_name">마일리지</SPAN><SPAN class="svc_info" 
+  id="cnt_mileage"></SPAN></A></LI>
+  <LI><A class="ico_checkout" onclick="clickcr(this, 'nmy_mys.checkout', '', '', event);My.movePage('http://checkout.naver.com/go/mypage/home?frm=pcme');return false;" 
+  href="http://checkout.naver.com/go/mypage/home?frm=pcme" 
+  target="_parent"><SPAN class="svc_icon"></SPAN><SPAN 
+  class="svc_name">체크아웃</SPAN><SPAN class="svc_info" 
+  id="cnt_checkout"></SPAN></A></LI></UL></DIV><A class="btn_close" onclick="clickcr(this, 'nmy_mys.close', '', '', event);myCore.toggleMyService();return false;" 
+href="http://my.naver.com/?20141104140813#"><I>MY 서비스 레이어 닫기</I></A>
+	 </DIV></DIV>
+<SCRIPT>
+document.domain = "naver.com";
+// 공통
+var nsc = "navertop.v3";		// clickcr nsc
+var oInfo = {"count":{"mail":5,"feed":true,"noti":2,"note":0},"profile":{"name":"한빛활용이","image":"http://static.naver.net/common/myarea/myInfo.gif"}};		// 초기 profile, count Info
+var sUserId = "hanbitbooks";		// 사용자 id
+
+	
+	try {
+		var aEventData = [{"startDate":"201410211600","linkUrl":"http://ndrive.naver.com/ndriveEvent.nhn?clientType=my","imageContent":"https://ssl.pstatic.net/mail.phinf/20141021_103/uclid_1413877269248qX7dX_PNG/my_ndrive_2mtester.png","textContent":null,"service":"noti,feed,mail,cafe,ndrive","endDate":"201410262300","type":"image","key":"I60"}];		// 이벤트 배너 data
+		if (!aEventData.length) {
+			aEventData = [];
+		}
+	} catch(e) {
+		// 혹시 데이터가 깨질 경우를 대비해 삽입
+		var aEventData = [];
+	}
+	
+	
+
+
+var lazyLoadScript = function(aScriptUrl, fnCallback, bNotCashed) {
+	var nScriptSize = aScriptUrl.length;
+	var nLoadedScriptSize = 0;
+	var elHead = document.getElementsByTagName("head")[0];
+	var sTimeStamp = bNotCashed ? ("?" + new Date().getTime()) : "";
+	for (var i = 0; i < nScriptSize; i++) {
+		var sScriptUrl = aScriptUrl[i];
+		var elScript = document.createElement("script");
+		elScript.type = "text/javascript";
+		elScript.charset = "utf-8";
+		elScript.src = sScriptUrl + sTimeStamp;
+		if ("onload" in elScript) {
+			elScript.onload = function() {
+				nLoadedScriptSize++;
+				if (nLoadedScriptSize >= nScriptSize) {
+					 fnCallback();
+				}
+			}
+		} else {
+			elScript.onreadystatechange = function() {
+		        if (this.readyState == "loaded" || this.readyState == "complete") {
+		        	nLoadedScriptSize++;
+		        	if (nLoadedScriptSize >= nScriptSize) {
+						 fnCallback();
+					}
+		        }
+		    }
+		}
+		
+		elHead.appendChild(elScript);
+	}
+};
+
+window.onload = function() {
+	setTimeout(function() {
+		
+		
+		
+		var aScriptList = ["/uglified_my_140818.js"];
+		
+		
+		lazyLoadScript(aScriptList, function() {
+			if (typeof myEof == "undefined") {
+				__nvl_error("Incompleteness Error : Core JS loading fail. Retry Count = 0");
+				lazyLoadScript(aScriptList, function() {
+					if (typeof myEof == "undefined") {
+						__nvl_error("Incompleteness Error : Core JS loading fail. Retry Count = 1");
+					}
+					myCore.init();
+				}, true);
+			} else {
+				myCore.init();
+			}
+		})
+	}, 50)
+}
+__nvl_error = function(m, u, l) {
+    if (typeof m == "object" && typeof m.description == 'string') {
+        m = m + " : " + m.description;
+    }
+    if (!u) {
+        u = document.location;
+    }
+    if (!l) {
+        l = 0;
+    }
+    
+    if (m && m.match && m.match(/(액세스가 거부되었습니다|사용 권한이 없습니다|Uncaught SecurityError)/)) {
+    	m += " (" + document.domain +"|";
+    	document.domain = "naver.com";
+    	m += document.domain +")";
+    }
+    
+    var img = new Image();
+    img.src = "http://cecs.naver.com/?m=" + encodeURIComponent(m) + "&u=" + encodeURIComponent(u) + "&l=" + l;
+    img = null;
+    
+    if ("release" == "local") {
+        return false;
+    } else {
+        return true;
+    }
+};
+window.onerror = __nvl_error;
+</SCRIPT>
+ </BODY></HTML>
